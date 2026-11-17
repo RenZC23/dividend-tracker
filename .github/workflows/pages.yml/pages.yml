@@ -1,0 +1,56 @@
+name: Update closing data and publish
+on:
+  workflow_dispatch:
+  schedule:
+    # Shanghai time: 16:23, 17:23, 18:23 on weekdays (UTC).
+    - cron: '23 8-10 * * 1-5'
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'published/**'
+      - 'README.md'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: dividend-pages
+  cancel-in-progress: false
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Extract deployment bundle
+        run: unzip -oq dividend-tracker-free.zip
+      - name: Fetch actual closing data
+        working-directory: dividend-tracker-free
+        run: node update-static.mjs
+      - name: Save public market snapshot only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- dividend-tracker-free/published/market.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update actual closing snapshot"
+            git push origin HEAD:main
+          fi
+      - name: Build site
+        working-directory: dividend-tracker-free
+        run: node build-static.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dividend-tracker-free/site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
