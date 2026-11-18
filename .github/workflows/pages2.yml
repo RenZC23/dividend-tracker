@@ -32,6 +32,7 @@ jobs:
         run: |
           unzip -oq dividend-tracker-free.zip
           unzip -oq dividend-tracker-free-v2.zip
+          mv dividend-tracker-free-v2 dividend-tracker-v2
       - name: Fetch actual closing data
         working-directory: dividend-tracker-free
         run: node update-static.mjs
