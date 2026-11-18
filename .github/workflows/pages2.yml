@@ -28,8 +28,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Extract deployment bundle
-        run: unzip -oq dividend-tracker-free.zip
+      - name: Extract deployment bundles
+        run: |
+          unzip -oq dividend-tracker-free.zip
+          unzip -oq dividend-tracker-free-v2.zip
       - name: Fetch actual closing data
         working-directory: dividend-tracker-free
         run: node update-static.mjs
@@ -42,15 +44,25 @@ jobs:
             git commit -m "data: update actual closing snapshot"
             git push origin HEAD:main
           fi
-      - name: Build site
+      - name: Build original site
         working-directory: dividend-tracker-free
         run: node build-static.mjs
+      - name: Build v2 site with the same closing snapshot
+        working-directory: dividend-tracker-v2
+        run: |
+          cp ../dividend-tracker-free/published/market.json published/market.json
+          node build-static.mjs
+      - name: Assemble original and v2 sites
+        run: |
+          mkdir -p public/v2
+          cp -a dividend-tracker-free/site/. public/
+          cp -a dividend-tracker-v2/site/. public/v2/
       - uses: actions/configure-pages@v5
         with:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dividend-tracker-free/site
+          path: public
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
