@@ -1,8 +1,8 @@
 {
   "data": {
     "version": 1,
-    "updatedAt": "2026-11-25T09:37:47.092Z",
-    "startedAt": "2026-11-25T09:37:17.196Z",
+    "updatedAt": "2026-11-25T11:19:55.507Z",
+    "startedAt": "2026-11-25T11:19:22.977Z",
     "reason": "github-after-close",
     "cutoff": "2026-11-25",
     "latestQuoteDate": "2026-11-25",
@@ -12,7 +12,7 @@
     "successful": 54,
     "errors": [
       {
-        "code": "600025",
+        "code": "000333",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
@@ -20,11 +20,11 @@
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
-        "code": "000333",
+        "code": "600690",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
-        "code": "600690",
+        "code": "600519",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
@@ -33,10 +33,6 @@
       },
       {
         "code": "600901",
-        "message": "push2his.eastmoney.com: fetch failed"
-      },
-      {
-        "code": "600519",
         "message": "push2his.eastmoney.com: fetch failed"
       }
     ],
@@ -69,7 +65,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:24.570Z"
+          "fetchedAt": "2026-11-25T11:19:29.056Z"
         },
         "dividendAmount": 0.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -106,7 +102,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:24.572Z",
+        "fetchedAt": "2026-11-25T11:19:29.057Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -159,7 +155,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:27.056Z"
+          "fetchedAt": "2026-11-25T11:19:30.950Z"
         },
         "dividendAmount": 0.245,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -196,7 +192,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:27.057Z",
+        "fetchedAt": "2026-11-25T11:19:30.950Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -239,7 +235,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:26.694Z"
+          "fetchedAt": "2026-11-25T11:19:30.585Z"
         },
         "dividendAmount": 0.31,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -276,7 +272,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:26.695Z",
+        "fetchedAt": "2026-11-25T11:19:30.585Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -319,7 +315,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:25.626Z"
+          "fetchedAt": "2026-11-25T11:19:30.045Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -354,9 +350,9 @@
           "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:25.627Z",
+        "fetchedAt": "2026-11-25T11:19:30.046Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -369,8 +365,8 @@
         "quoteDate": "2026-11-25",
         "marketCap": 2157.48,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "腾讯不复权日线",
-        "verified": false,
+        "source": "东方财富不复权日线",
+        "verified": true,
         "dividend": {
           "amount": 0.205,
           "start": "2025-11-25",
@@ -389,7 +385,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:41.081Z"
+          "fetchedAt": "2026-11-25T11:19:41.324Z"
         },
         "dividendAmount": 0.205,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -426,10 +422,8 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:41.082Z",
-        "errors": [
-          "push2his.eastmoney.com: fetch failed"
-        ],
+        "fetchedAt": "2026-11-25T11:19:41.324Z",
+        "errors": [],
         "warnings": [],
         "status": "ok"
       },
@@ -471,7 +465,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:36.821Z"
+          "fetchedAt": "2026-11-25T11:19:41.583Z"
         },
         "dividendAmount": 0.217,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -508,7 +502,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:36.822Z",
+        "fetchedAt": "2026-11-25T11:19:41.584Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -551,7 +545,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:32.413Z"
+          "fetchedAt": "2026-11-25T11:19:35.778Z"
         },
         "dividendAmount": 2.016,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -588,7 +582,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:32.414Z",
+        "fetchedAt": "2026-11-25T11:19:35.778Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -621,7 +615,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:35.432Z"
+          "fetchedAt": "2026-11-25T11:19:38.765Z"
         },
         "dividendAmount": 0.0523,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -658,7 +652,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:35.433Z",
+        "fetchedAt": "2026-11-25T11:19:38.766Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -701,7 +695,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:29.906Z"
+          "fetchedAt": "2026-11-25T11:19:33.437Z"
         },
         "dividendAmount": 1.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -738,7 +732,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:29.907Z",
+        "fetchedAt": "2026-11-25T11:19:33.437Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -781,7 +775,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:37.129Z"
+          "fetchedAt": "2026-11-25T11:19:41.524Z"
         },
         "dividendAmount": 0.52,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -818,7 +812,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:37.130Z",
+        "fetchedAt": "2026-11-25T11:19:41.525Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -861,7 +855,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:29.468Z"
+          "fetchedAt": "2026-11-25T11:19:30.481Z"
         },
         "dividendAmount": 0.363,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -898,7 +892,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:29.469Z",
+        "fetchedAt": "2026-11-25T11:19:30.482Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -931,7 +925,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:28.332Z"
+          "fetchedAt": "2026-11-25T11:19:32.414Z"
         },
         "dividendAmount": 0.49,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -968,7 +962,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:28.333Z",
+        "fetchedAt": "2026-11-25T11:19:32.415Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1011,7 +1005,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:47.090Z"
+          "fetchedAt": "2026-11-25T11:19:51.903Z"
         },
         "dividendAmount": 51.98123,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1048,7 +1042,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:47.092Z",
+        "fetchedAt": "2026-11-25T11:19:51.904Z",
         "errors": [
           "push2his.eastmoney.com: fetch failed"
         ],
@@ -1083,7 +1077,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:42.626Z"
+          "fetchedAt": "2026-11-25T11:19:47.852Z"
         },
         "dividendAmount": 0.89151,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1120,7 +1114,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:42.627Z",
+        "fetchedAt": "2026-11-25T11:19:47.853Z",
         "errors": [
           "push2his.eastmoney.com: fetch failed"
         ],
@@ -1155,7 +1149,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:25.221Z"
+          "fetchedAt": "2026-11-25T11:19:29.498Z"
         },
         "dividendAmount": 0.141,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1190,9 +1184,9 @@
           "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:25.222Z",
+        "fetchedAt": "2026-11-25T11:19:29.499Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1225,7 +1219,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:25.533Z"
+          "fetchedAt": "2026-11-25T11:19:29.809Z"
         },
         "dividendAmount": 0.5081,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1262,7 +1256,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:25.534Z",
+        "fetchedAt": "2026-11-25T11:19:29.809Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1305,7 +1299,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:46.068Z"
+          "fetchedAt": "2026-11-25T11:19:53.509Z"
         },
         "dividendAmount": 1.38,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1342,7 +1336,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:46.069Z",
+        "fetchedAt": "2026-11-25T11:19:53.509Z",
         "errors": [
           "push2his.eastmoney.com: fetch failed"
         ],
@@ -1387,7 +1381,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:24.315Z"
+          "fetchedAt": "2026-11-25T11:19:28.563Z"
         },
         "dividendAmount": 1,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1422,9 +1416,9 @@
           "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:24.316Z",
+        "fetchedAt": "2026-11-25T11:19:28.564Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1467,7 +1461,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:46.878Z"
+          "fetchedAt": "2026-11-25T11:19:55.507Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1504,7 +1498,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:46.879Z",
+        "fetchedAt": "2026-11-25T11:19:55.507Z",
         "errors": [
           "push2his.eastmoney.com: fetch failed"
         ],
@@ -1549,7 +1543,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:33.012Z"
+          "fetchedAt": "2026-11-25T11:19:35.551Z"
         },
         "dividendAmount": 0.5641,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1584,9 +1578,9 @@
           "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:33.014Z",
+        "fetchedAt": "2026-11-25T11:19:35.552Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1629,7 +1623,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:35.800Z"
+          "fetchedAt": "2026-11-25T11:19:39.238Z"
         },
         "dividendAmount": 1.29205,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1666,7 +1660,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:35.801Z",
+        "fetchedAt": "2026-11-25T11:19:39.238Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1709,7 +1703,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:34.707Z"
+          "fetchedAt": "2026-11-25T11:19:38.232Z"
         },
         "dividendAmount": 4.7112,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1746,7 +1740,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:34.709Z",
+        "fetchedAt": "2026-11-25T11:19:38.233Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1789,7 +1783,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:37.239Z"
+          "fetchedAt": "2026-11-25T11:19:51.305Z"
         },
         "dividendAmount": 0.22177,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1826,7 +1820,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:37.240Z",
+        "fetchedAt": "2026-11-25T11:19:51.306Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1869,7 +1863,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:32.677Z"
+          "fetchedAt": "2026-11-25T11:19:35.393Z"
         },
         "dividendAmount": 1.066,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1906,7 +1900,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:32.678Z",
+        "fetchedAt": "2026-11-25T11:19:35.394Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1939,7 +1933,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:31.338Z"
+          "fetchedAt": "2026-11-25T11:19:34.425Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -1976,7 +1970,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:31.339Z",
+        "fetchedAt": "2026-11-25T11:19:34.426Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2019,7 +2013,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:36.606Z"
+          "fetchedAt": "2026-11-25T11:19:40.490Z"
         },
         "dividendAmount": 0.967,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2056,7 +2050,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:36.607Z",
+        "fetchedAt": "2026-11-25T11:19:40.491Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2109,7 +2103,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:33.906Z"
+          "fetchedAt": "2026-11-25T11:19:39.526Z"
         },
         "dividendAmount": 0.3792,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2146,7 +2140,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:33.907Z",
+        "fetchedAt": "2026-11-25T11:19:39.526Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2199,7 +2193,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:27.863Z"
+          "fetchedAt": "2026-11-25T11:19:31.660Z"
         },
         "dividendAmount": 0.4853,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2236,7 +2230,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:27.864Z",
+        "fetchedAt": "2026-11-25T11:19:31.661Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2279,7 +2273,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:22.937Z"
+          "fetchedAt": "2026-11-25T11:19:27.609Z"
         },
         "dividendAmount": 2.73,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2316,7 +2310,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:22.938Z",
+        "fetchedAt": "2026-11-25T11:19:27.610Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2359,7 +2353,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:34.647Z"
+          "fetchedAt": "2026-11-25T11:19:38.029Z"
         },
         "dividendAmount": 0.3247,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2396,7 +2390,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:34.648Z",
+        "fetchedAt": "2026-11-25T11:19:38.030Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2439,7 +2433,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:22.720Z"
+          "fetchedAt": "2026-11-25T11:19:27.753Z"
         },
         "dividendAmount": 2.73,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2476,7 +2470,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:22.721Z",
+        "fetchedAt": "2026-11-25T11:19:27.754Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2529,7 +2523,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:31.327Z"
+          "fetchedAt": "2026-11-25T11:19:34.775Z"
         },
         "dividendAmount": 0.23174,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2566,7 +2560,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:31.328Z",
+        "fetchedAt": "2026-11-25T11:19:34.776Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2619,7 +2613,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:33.559Z"
+          "fetchedAt": "2026-11-25T11:19:36.842Z"
         },
         "dividendAmount": 0.4614,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2656,7 +2650,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:33.560Z",
+        "fetchedAt": "2026-11-25T11:19:36.843Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2699,7 +2693,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:23.029Z"
+          "fetchedAt": "2026-11-25T11:19:27.830Z"
         },
         "dividendAmount": 1.57,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2736,7 +2730,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:23.030Z",
+        "fetchedAt": "2026-11-25T11:19:27.830Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2779,7 +2773,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:23.015Z"
+          "fetchedAt": "2026-11-25T11:19:27.601Z"
         },
         "dividendAmount": 0.976,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2816,7 +2810,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:23.016Z",
+        "fetchedAt": "2026-11-25T11:19:27.602Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2849,7 +2843,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:30.300Z"
+          "fetchedAt": "2026-11-25T11:19:33.684Z"
         },
         "dividendAmount": 0.2718,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2886,7 +2880,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:30.302Z",
+        "fetchedAt": "2026-11-25T11:19:33.685Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2919,7 +2913,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:31.904Z"
+          "fetchedAt": "2026-11-25T11:19:36.753Z"
         },
         "dividendAmount": 0.10552,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2956,7 +2950,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:31.906Z",
+        "fetchedAt": "2026-11-25T11:19:36.754Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2999,7 +2993,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:34.964Z"
+          "fetchedAt": "2026-11-25T11:19:38.198Z"
         },
         "dividendAmount": 0.2514,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3036,7 +3030,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:34.965Z",
+        "fetchedAt": "2026-11-25T11:19:38.199Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3079,7 +3073,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:31.977Z"
+          "fetchedAt": "2026-11-25T11:19:34.358Z"
         },
         "dividendAmount": 0.19573,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3116,7 +3110,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:31.978Z",
+        "fetchedAt": "2026-11-25T11:19:34.359Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3159,7 +3153,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:33.150Z"
+          "fetchedAt": "2026-11-25T11:19:36.614Z"
         },
         "dividendAmount": 1.41,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3196,7 +3190,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:33.151Z",
+        "fetchedAt": "2026-11-25T11:19:36.614Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3239,7 +3233,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:35.997Z"
+          "fetchedAt": "2026-11-25T11:19:39.356Z"
         },
         "dividendAmount": 0.51,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3276,7 +3270,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:35.998Z",
+        "fetchedAt": "2026-11-25T11:19:39.356Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3319,7 +3313,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:29.401Z"
+          "fetchedAt": "2026-11-25T11:19:32.687Z"
         },
         "dividendAmount": 0.38,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3356,7 +3350,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:29.402Z",
+        "fetchedAt": "2026-11-25T11:19:32.688Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3399,7 +3393,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:29.246Z"
+          "fetchedAt": "2026-11-25T11:19:32.454Z"
         },
         "dividendAmount": 0.87,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3436,7 +3430,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:29.247Z",
+        "fetchedAt": "2026-11-25T11:19:32.454Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3479,7 +3473,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:24.091Z"
+          "fetchedAt": "2026-11-25T11:19:28.439Z"
         },
         "dividendAmount": 0.5,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3516,7 +3510,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:24.092Z",
+        "fetchedAt": "2026-11-25T11:19:28.440Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3559,7 +3553,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:34.203Z"
+          "fetchedAt": "2026-11-25T11:19:37.528Z"
         },
         "dividendAmount": 0.3887,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3596,7 +3590,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:34.204Z",
+        "fetchedAt": "2026-11-25T11:19:37.528Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3649,7 +3643,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:23.818Z"
+          "fetchedAt": "2026-11-25T11:19:28.590Z"
         },
         "dividendAmount": 0.2,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3686,7 +3680,7 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:23.819Z",
+        "fetchedAt": "2026-11-25T11:19:28.590Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3739,7 +3733,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:25.980Z"
+          "fetchedAt": "2026-11-25T11:19:30.145Z"
         },
         "dividendAmount": 0.216,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3776,7 +3770,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:25.982Z",
+        "fetchedAt": "2026-11-25T11:19:30.145Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3809,7 +3803,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:24.807Z"
+          "fetchedAt": "2026-11-25T11:19:29.169Z"
         },
         "dividendAmount": 0.086,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -3846,87 +3840,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:24.809Z",
-        "errors": [],
-        "warnings": [],
-        "status": "ok"
-      },
-      "000708": {
-        "code": "000708",
-        "name": "中信特钢",
-        "price": 12.8,
-        "change": 1.59,
-        "quoteDate": "2026-11-25",
-        "marketCap": 646.04,
-        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
-        "dividend": {
-          "amount": 0.6457954,
-          "start": "2025-11-25",
-          "end": "2026-11-25",
-          "events": [
-            {
-              "exDate": "2026-05-21",
-              "reportDate": "2025-12-31",
-              "cashPer10": 4.457954,
-              "cashPerShare": 0.4457954,
-              "bonusPer10": 0,
-              "transferPer10": 0,
-              "plan": "10派4.457954元(含税,扣税后4.012159元)",
-              "progress": "实施分配"
-            },
-            {
-              "exDate": "2026-09-16",
-              "reportDate": "2026-06-30",
-              "cashPer10": 2,
-              "cashPerShare": 0.2,
-              "bonusPer10": 0,
-              "transferPer10": 0,
-              "plan": "10派2.00元(含税,扣税后1.80元)",
-              "progress": "实施分配"
-            }
-          ],
-          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
-          "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:26.718Z"
-        },
-        "dividendAmount": 0.6457954,
-        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
-        "trends": {
-          "day": {
-            "label": "中上偏下",
-            "close": 12.8,
-            "mid": 12.565499999999998,
-            "upper": 13.176416524575982,
-            "lower": 11.954583475424014,
-            "position": 0.6919247479537083,
-            "samples": 20
-          },
-          "week": {
-            "label": "中下偏上",
-            "close": 12.8,
-            "mid": 13.1815,
-            "upper": 14.408663803247146,
-            "lower": 11.954336196752854,
-            "position": 0.34456027834648967,
-            "samples": 20
-          },
-          "month": {
-            "label": "中下偏上",
-            "close": 12.8,
-            "mid": 13.462250000000001,
-            "upper": 17.136094301273534,
-            "lower": 9.78840569872647,
-            "position": 0.4098696153548977,
-            "samples": 20
-          },
-          "asOf": "2026-11-25",
-          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
-        },
-        "historyCount": 651,
-        "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:26.719Z",
+        "fetchedAt": "2026-11-25T11:19:29.170Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3969,7 +3883,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:28.597Z"
+          "fetchedAt": "2026-11-25T11:19:31.460Z"
         },
         "dividendAmount": 0.999,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -4006,69 +3920,79 @@
         },
         "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:28.598Z",
+        "fetchedAt": "2026-11-25T11:19:31.461Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
       },
-      "002001": {
-        "code": "002001",
-        "name": "新 和 成",
-        "price": 24.81,
-        "change": -0.16,
+      "000708": {
+        "code": "000708",
+        "name": "中信特钢",
+        "price": 12.8,
+        "change": 1.59,
         "quoteDate": "2026-11-25",
-        "marketCap": 762.52,
+        "marketCap": 646.04,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
-          "amount": 0.8,
+          "amount": 0.6457954,
           "start": "2025-11-25",
           "end": "2026-11-25",
           "events": [
             {
-              "exDate": "2026-05-28",
+              "exDate": "2026-05-21",
               "reportDate": "2025-12-31",
-              "cashPer10": 8,
-              "cashPerShare": 0.8,
+              "cashPer10": 4.457954,
+              "cashPerShare": 0.4457954,
               "bonusPer10": 0,
               "transferPer10": 0,
-              "plan": "10派8.00元(含税,扣税后7.20元)",
+              "plan": "10派4.457954元(含税,扣税后4.012159元)",
+              "progress": "实施分配"
+            },
+            {
+              "exDate": "2026-09-16",
+              "reportDate": "2026-06-30",
+              "cashPer10": 2,
+              "cashPerShare": 0.2,
+              "bonusPer10": 0,
+              "transferPer10": 0,
+              "plan": "10派2.00元(含税,扣税后1.80元)",
               "progress": "实施分配"
             }
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:30.411Z"
+          "fetchedAt": "2026-11-25T11:19:31.579Z"
         },
-        "dividendAmount": 0.8,
+        "dividendAmount": 0.6457954,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏下",
-            "close": 24.81,
-            "mid": 25.7215,
-            "upper": 26.806641004662527,
-            "lower": 24.63635899533747,
-            "position": 0.0800084983962657,
+            "label": "中上偏下",
+            "close": 12.8,
+            "mid": 12.565499999999998,
+            "upper": 13.176416524575982,
+            "lower": 11.954583475424014,
+            "position": 0.6919247479537083,
             "samples": 20
           },
           "week": {
-            "label": "中下偏下",
-            "close": 24.81,
-            "mid": 27.002999999999997,
-            "upper": 30.32156053131474,
-            "lower": 23.68443946868525,
-            "position": 0.16958565629490316,
+            "label": "中下偏上",
+            "close": 12.8,
+            "mid": 13.1815,
+            "upper": 14.408663803247146,
+            "lower": 11.954336196752854,
+            "position": 0.34456027834648967,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 24.81,
-            "mid": 25.905949999999997,
-            "upper": 33.91650107904568,
-            "lower": 17.895398920954314,
-            "position": 0.431593345502357,
+            "close": 12.8,
+            "mid": 13.462250000000001,
+            "upper": 17.136094301273534,
+            "lower": 9.78840569872647,
+            "position": 0.4098696153548977,
             "samples": 20
           },
           "asOf": "2026-11-25",
@@ -4076,7 +4000,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:30.412Z",
+        "fetchedAt": "2026-11-25T11:19:31.580Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -4119,7 +4043,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:30.935Z"
+          "fetchedAt": "2026-11-25T11:19:33.171Z"
         },
         "dividendAmount": 0.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -4156,8 +4080,150 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:30.936Z",
+        "fetchedAt": "2026-11-25T11:19:33.172Z",
         "errors": [],
+        "warnings": [],
+        "status": "ok"
+      },
+      "002001": {
+        "code": "002001",
+        "name": "新 和 成",
+        "price": 24.81,
+        "change": -0.16,
+        "quoteDate": "2026-11-25",
+        "marketCap": 762.52,
+        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
+        "source": "东方财富不复权日线",
+        "verified": true,
+        "dividend": {
+          "amount": 0.8,
+          "start": "2025-11-25",
+          "end": "2026-11-25",
+          "events": [
+            {
+              "exDate": "2026-05-28",
+              "reportDate": "2025-12-31",
+              "cashPer10": 8,
+              "cashPerShare": 0.8,
+              "bonusPer10": 0,
+              "transferPer10": 0,
+              "plan": "10派8.00元(含税,扣税后7.20元)",
+              "progress": "实施分配"
+            }
+          ],
+          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
+          "provider": "东方财富已实施分红",
+          "fetchedAt": "2026-11-25T11:19:33.534Z"
+        },
+        "dividendAmount": 0.8,
+        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
+        "trends": {
+          "day": {
+            "label": "中下偏下",
+            "close": 24.81,
+            "mid": 25.7215,
+            "upper": 26.806641004662527,
+            "lower": 24.63635899533747,
+            "position": 0.0800084983962657,
+            "samples": 20
+          },
+          "week": {
+            "label": "中下偏下",
+            "close": 24.81,
+            "mid": 27.002999999999997,
+            "upper": 30.32156053131474,
+            "lower": 23.68443946868525,
+            "position": 0.16958565629490316,
+            "samples": 20
+          },
+          "month": {
+            "label": "中下偏上",
+            "close": 24.81,
+            "mid": 25.905949999999997,
+            "upper": 33.91650107904568,
+            "lower": 17.895398920954314,
+            "position": 0.431593345502357,
+            "samples": 20
+          },
+          "asOf": "2026-11-25",
+          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
+        },
+        "historyCount": 651,
+        "historyProvider": "腾讯前复权历史日线",
+        "fetchedAt": "2026-11-25T11:19:33.534Z",
+        "errors": [],
+        "warnings": [],
+        "status": "ok"
+      },
+      "000333": {
+        "code": "000333",
+        "name": "美的集团",
+        "price": 94.14,
+        "change": -0.1,
+        "quoteDate": "2026-11-25",
+        "marketCap": 7183.24,
+        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
+        "source": "腾讯不复权日线",
+        "verified": false,
+        "dividend": {
+          "amount": 3.8,
+          "start": "2025-11-25",
+          "end": "2026-11-25",
+          "events": [
+            {
+              "exDate": "2026-06-29",
+              "reportDate": "2025-12-31",
+              "cashPer10": 38,
+              "cashPerShare": 3.8,
+              "bonusPer10": 0,
+              "transferPer10": 0,
+              "plan": "10派38.00元(含税,扣税后34.20元)",
+              "progress": "实施分配"
+            }
+          ],
+          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
+          "provider": "东方财富已实施分红",
+          "fetchedAt": "2026-11-25T11:19:45.753Z"
+        },
+        "dividendAmount": 3.8,
+        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
+        "trends": {
+          "day": {
+            "label": "中上偏上",
+            "close": 94.14,
+            "mid": 90.7715,
+            "upper": 96.31350424034483,
+            "lower": 85.22949575965518,
+            "position": 0.8039062994104105,
+            "samples": 20
+          },
+          "week": {
+            "label": "上",
+            "close": 94.14,
+            "mid": 86.18949999999998,
+            "upper": 93.75972185936448,
+            "lower": 78.61927814063549,
+            "position": 1.0251167104280514,
+            "samples": 20
+          },
+          "month": {
+            "label": "上",
+            "close": 94.14,
+            "mid": 76.1082,
+            "upper": 91.70187541793787,
+            "lower": 60.51452458206212,
+            "position": 1.078176713209558,
+            "samples": 20
+          },
+          "asOf": "2026-11-25",
+          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
+        },
+        "historyCount": 650,
+        "historyProvider": "腾讯前复权历史日线",
+        "fetchedAt": "2026-11-25T11:19:45.754Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
@@ -4199,7 +4265,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:41.851Z"
+          "fetchedAt": "2026-11-25T11:19:46.339Z"
         },
         "dividendAmount": 3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -4236,79 +4302,7 @@
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:41.852Z",
-        "errors": [
-          "push2his.eastmoney.com: fetch failed"
-        ],
-        "warnings": [],
-        "status": "ok"
-      },
-      "000333": {
-        "code": "000333",
-        "name": "美的集团",
-        "price": 94.14,
-        "change": -0.1,
-        "quoteDate": "2026-11-25",
-        "marketCap": 7183.24,
-        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "腾讯不复权日线",
-        "verified": false,
-        "dividend": {
-          "amount": 3.8,
-          "start": "2025-11-25",
-          "end": "2026-11-25",
-          "events": [
-            {
-              "exDate": "2026-06-29",
-              "reportDate": "2025-12-31",
-              "cashPer10": 38,
-              "cashPerShare": 3.8,
-              "bonusPer10": 0,
-              "transferPer10": 0,
-              "plan": "10派38.00元(含税,扣税后34.20元)",
-              "progress": "实施分配"
-            }
-          ],
-          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
-          "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-25T09:37:42.036Z"
-        },
-        "dividendAmount": 3.8,
-        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
-        "trends": {
-          "day": {
-            "label": "中上偏上",
-            "close": 94.14,
-            "mid": 90.7715,
-            "upper": 96.31350424034483,
-            "lower": 85.22949575965518,
-            "position": 0.8039062994104105,
-            "samples": 20
-          },
-          "week": {
-            "label": "上",
-            "close": 94.14,
-            "mid": 86.18949999999998,
-            "upper": 93.75972185936448,
-            "lower": 78.61927814063549,
-            "position": 1.0251167104280514,
-            "samples": 20
-          },
-          "month": {
-            "label": "上",
-            "close": 94.14,
-            "mid": 76.1082,
-            "upper": 91.70187541793787,
-            "lower": 60.51452458206212,
-            "position": 1.078176713209558,
-            "samples": 20
-          },
-          "asOf": "2026-11-25",
-          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
-        },
-        "historyCount": 650,
-        "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-25T09:37:42.037Z",
+        "fetchedAt": "2026-11-25T11:19:46.340Z",
         "errors": [
           "push2his.eastmoney.com: fetch failed"
         ],
@@ -4332,11 +4326,11 @@
     "running": false
   },
   "status": {
-    "lastAttemptAt": "2026-11-25T09:37:47.092Z",
+    "lastAttemptAt": "2026-11-25T11:19:55.507Z",
     "status": "partial",
     "errors": [
       {
-        "code": "600025",
+        "code": "000333",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
@@ -4344,11 +4338,11 @@
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
-        "code": "000333",
+        "code": "600690",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
-        "code": "600690",
+        "code": "600519",
         "message": "push2his.eastmoney.com: fetch failed"
       },
       {
@@ -4357,10 +4351,6 @@
       },
       {
         "code": "600901",
-        "message": "push2his.eastmoney.com: fetch failed"
-      },
-      {
-        "code": "600519",
         "message": "push2his.eastmoney.com: fetch failed"
       }
     ]
