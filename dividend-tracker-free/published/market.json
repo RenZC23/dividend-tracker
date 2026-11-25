@@ -1,31 +1,60 @@
 {
   "data": {
     "version": 1,
-    "updatedAt": "2026-11-24T11:14:22.495Z",
-    "startedAt": "2026-11-24T11:13:51.197Z",
+    "updatedAt": "2026-11-25T09:37:47.092Z",
+    "startedAt": "2026-11-25T09:37:17.196Z",
     "reason": "github-after-close",
-    "cutoff": "2026-11-24",
-    "latestQuoteDate": "2026-11-24",
-    "earliestQuoteDate": "2026-11-24",
+    "cutoff": "2026-11-25",
+    "latestQuoteDate": "2026-11-25",
+    "earliestQuoteDate": "2026-11-25",
     "total": 54,
     "available": 54,
     "successful": 54,
-    "errors": [],
+    "errors": [
+      {
+        "code": "600025",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "000651",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "000333",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600690",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600887",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600901",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600519",
+        "message": "push2his.eastmoney.com: fetch failed"
+      }
+    ],
     "quotes": {
       "600011": {
         "code": "600011",
         "name": "华能国际",
-        "price": 7.74,
-        "change": 0,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1215.03,
+        "price": 7.73,
+        "change": -0.13,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1213.46,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.4,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-03",
@@ -40,44 +69,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:59.933Z"
+          "fetchedAt": "2026-11-25T09:37:24.570Z"
         },
         "dividendAmount": 0.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏下",
-            "close": 7.74,
-            "mid": 7.642500000000001,
-            "upper": 8.00822530675358,
-            "lower": 7.276774693246422,
-            "position": 0.6332967642647893,
+            "close": 7.73,
+            "mid": 7.659000000000001,
+            "upper": 8.00890855948376,
+            "lower": 7.309091440516241,
+            "position": 0.6014550774418752,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 7.74,
-            "mid": 7.1735000000000015,
-            "upper": 7.93503200851967,
-            "lower": 6.411967991480333,
-            "position": 0.871947596202299,
+            "close": 7.73,
+            "mid": 7.173,
+            "upper": 7.933055261148819,
+            "lower": 6.412944738851181,
+            "position": 0.8664207252233856,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 7.74,
-            "mid": 7.0390000000000015,
-            "upper": 8.048393877532455,
-            "lower": 6.029606122467548,
-            "position": 0.8472380879274061,
+            "close": 7.73,
+            "mid": 7.038500000000001,
+            "upper": 8.046513392768173,
+            "lower": 6.030486607231829,
+            "position": 0.8430013951010243,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:59.934Z",
+        "fetchedAt": "2026-11-25T09:37:24.572Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -85,17 +114,17 @@
       "600018": {
         "code": "600018",
         "name": "上港集团",
-        "price": 5.95,
-        "change": -0.17,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1385.16,
+        "price": 5.89,
+        "change": -1.01,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1371.19,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.245,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-13",
@@ -130,44 +159,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:05.766Z"
+          "fetchedAt": "2026-11-25T09:37:27.056Z"
         },
         "dividendAmount": 0.245,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 5.95,
-            "mid": 5.7575,
-            "upper": 6.06113629559063,
-            "lower": 5.453863704409371,
-            "position": 0.8169910890026363,
+            "label": "中上偏下",
+            "close": 5.89,
+            "mid": 5.7805,
+            "upper": 6.04908704361901,
+            "lower": 5.51191295638099,
+            "position": 0.7038445312263931,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 5.95,
-            "mid": 5.396749999999999,
-            "upper": 5.969500163683957,
-            "lower": 4.823999836316041,
-            "position": 0.9829767279693725,
+            "close": 5.89,
+            "mid": 5.393749999999999,
+            "upper": 5.955398244010429,
+            "lower": 4.8321017559895685,
+            "position": 0.941780069013075,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 5.95,
-            "mid": 5.1995000000000005,
-            "upper": 5.860906833953203,
-            "lower": 4.538093166046798,
-            "position": 1.0673512590687115,
+            "close": 5.89,
+            "mid": 5.1965,
+            "upper": 5.844675130655289,
+            "lower": 4.548324869344712,
+            "position": 1.0349634436752368,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:05.767Z",
+        "fetchedAt": "2026-11-25T09:37:27.057Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -175,17 +204,17 @@
       "600019": {
         "code": "600019",
         "name": "宝钢股份",
-        "price": 6.17,
-        "change": -1.12,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1343.95,
+        "price": 6.18,
+        "change": 0.16,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1346.13,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.31,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-25",
@@ -210,44 +239,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:04.137Z"
+          "fetchedAt": "2026-11-25T09:37:26.694Z"
         },
         "dividendAmount": 0.31,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中",
-            "close": 6.17,
-            "mid": 6.164,
-            "upper": 6.3636396754154845,
-            "lower": 5.964360324584515,
-            "position": 0.5150270731193917,
+            "close": 6.18,
+            "mid": 6.172499999999999,
+            "upper": 6.35924849396983,
+            "lower": 5.9857515060301685,
+            "position": 0.5200804832225633,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 6.17,
-            "mid": 5.881500000000002,
-            "upper": 6.292852646764308,
-            "lower": 5.470147353235696,
-            "position": 0.8506723516541524,
+            "close": 6.18,
+            "mid": 5.882000000000002,
+            "upper": 6.294775968292731,
+            "lower": 5.469224031707274,
+            "position": 0.8609706267936904,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 6.17,
-            "mid": 6.3412,
-            "upper": 7.369969672958918,
-            "lower": 5.312430327041081,
-            "position": 0.4167938147381429,
+            "close": 6.18,
+            "mid": 6.3417,
+            "upper": 7.370146031641914,
+            "lower": 5.313253968358087,
+            "position": 0.4213862492415637,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:04.138Z",
+        "fetchedAt": "2026-11-25T09:37:26.695Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -255,17 +284,17 @@
       "600023": {
         "code": "600023",
         "name": "浙能电力",
-        "price": 5.48,
-        "change": -0.9,
-        "quoteDate": "2026-11-24",
-        "marketCap": 734.8,
+        "price": 5.27,
+        "change": -3.83,
+        "quoteDate": "2026-11-25",
+        "marketCap": 706.64,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.3,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-30",
@@ -290,44 +319,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:02.548Z"
+          "fetchedAt": "2026-11-25T09:37:25.626Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中",
-            "close": 5.48,
-            "mid": 5.4645,
-            "upper": 5.787639288852346,
-            "lower": 5.141360711147654,
-            "position": 0.523983465543682,
+            "label": "中下偏下",
+            "close": 5.27,
+            "mid": 5.468500000000001,
+            "upper": 5.779708933033743,
+            "lower": 5.157291066966258,
+            "position": 0.18108241934932037,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 5.48,
-            "mid": 5.153499999999999,
-            "upper": 5.6487282302131,
-            "lower": 4.658271769786898,
-            "position": 0.8296459895465828,
+            "label": "中上偏下",
+            "close": 5.27,
+            "mid": 5.142999999999999,
+            "upper": 5.6186090831765085,
+            "lower": 4.667390916823489,
+            "position": 0.6335130094149906,
             "samples": 20
           },
           "month": {
-            "label": "中上偏上",
-            "close": 5.48,
-            "mid": 4.9795,
-            "upper": 5.734893275056113,
-            "lower": 4.224106724943887,
-            "position": 0.8312843895537871,
+            "label": "中上偏下",
+            "close": 5.27,
+            "mid": 4.968999999999999,
+            "upper": 5.7017728160896795,
+            "lower": 4.236227183910319,
+            "position": 0.7053842564781786,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:02.549Z",
+        "fetchedAt": "2026-11-25T09:37:25.627Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -335,17 +364,17 @@
       "600025": {
         "code": "600025",
         "name": "华能水电",
-        "price": 11.65,
-        "change": 0.52,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2170.52,
+        "price": 11.58,
+        "change": -0.6,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2157.48,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 0.205,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-29",
@@ -360,62 +389,64 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:17.868Z"
+          "fetchedAt": "2026-11-25T09:37:41.081Z"
         },
         "dividendAmount": 0.205,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 11.65,
-            "mid": 10.979000000000001,
-            "upper": 11.669040578516945,
-            "lower": 10.288959421483057,
-            "position": 0.986203290712361,
+            "close": 11.58,
+            "mid": 11.032500000000002,
+            "upper": 11.73460754162023,
+            "lower": 10.330392458379775,
+            "position": 0.8898975353095853,
             "samples": 20
           },
           "week": {
             "label": "上",
-            "close": 11.65,
-            "mid": 10.186,
-            "upper": 11.444100154995619,
-            "lower": 8.927899845004381,
-            "position": 1.0818296715833005,
+            "close": 11.58,
+            "mid": 10.182500000000001,
+            "upper": 11.424576889729458,
+            "lower": 8.940423110270544,
+            "position": 1.06256581680076,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 11.65,
-            "mid": 9.5355,
-            "upper": 10.859603092663106,
-            "lower": 8.211396907336896,
-            "position": 1.2984650182136528,
+            "close": 11.58,
+            "mid": 9.532,
+            "upper": 10.833911671351018,
+            "lower": 8.230088328648982,
+            "position": 1.2865356940362753,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 650,
+        "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:17.869Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:41.082Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
       "600028": {
         "code": "600028",
         "name": "中国石化",
-        "price": 5.79,
-        "change": -2.2,
-        "quoteDate": "2026-11-24",
-        "marketCap": 6989.37,
+        "price": 5.81,
+        "change": 0.35,
+        "quoteDate": "2026-11-25",
+        "marketCap": 7013.51,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.217,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-17",
@@ -440,44 +471,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:16.470Z"
+          "fetchedAt": "2026-11-25T09:37:36.821Z"
         },
         "dividendAmount": 0.217,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中",
-            "close": 5.79,
-            "mid": 5.789500000000001,
-            "upper": 6.058235929864245,
-            "lower": 5.520764070135757,
-            "position": 0.5009302812620765,
+            "close": 5.81,
+            "mid": 5.806,
+            "upper": 6.034157840101979,
+            "lower": 5.5778421598980215,
+            "position": 0.5087658613839693,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 5.79,
-            "mid": 5.364250000000001,
-            "upper": 6.027381020236575,
-            "lower": 4.701118979763427,
-            "position": 0.8210149932724541,
+            "close": 5.81,
+            "mid": 5.365250000000001,
+            "upper": 6.031001267366426,
+            "lower": 4.699498732633577,
+            "position": 0.8340211440823373,
             "samples": 20
           },
           "month": {
             "label": "中上偏下",
-            "close": 5.79,
-            "mid": 5.434350000000001,
-            "upper": 6.3694288790257225,
-            "lower": 4.49927112097428,
-            "position": 0.6901711224461397,
+            "close": 5.81,
+            "mid": 5.4353500000000015,
+            "upper": 6.3719895838314775,
+            "lower": 4.498710416168525,
+            "position": 0.6999968859245899,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:16.470Z",
+        "fetchedAt": "2026-11-25T09:37:36.822Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -485,17 +516,17 @@
       "600036": {
         "code": "600036",
         "name": "招商银行",
-        "price": 43.52,
-        "change": 0.6,
-        "quoteDate": "2026-11-24",
-        "marketCap": 10975.68,
+        "price": 43.2,
+        "change": -0.74,
+        "quoteDate": "2026-11-25",
+        "marketCap": 10894.97,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 2.016,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-16",
@@ -520,44 +551,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:10.469Z"
+          "fetchedAt": "2026-11-25T09:37:32.413Z"
         },
         "dividendAmount": 2.016,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 43.52,
-            "mid": 43.033,
-            "upper": 43.90020470478429,
-            "lower": 42.165795295215716,
-            "position": 0.780787222044155,
+            "label": "中上偏下",
+            "close": 43.2,
+            "mid": 43.0865,
+            "upper": 43.850103954939996,
+            "lower": 42.322896045060006,
+            "position": 0.5743186302701384,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 43.52,
-            "mid": 41.022499999999994,
-            "upper": 44.63783331796668,
-            "lower": 37.407166682033306,
-            "position": 0.8454038369835063,
+            "close": 43.2,
+            "mid": 41.0065,
+            "upper": 44.58007118300448,
+            "lower": 37.43292881699553,
+            "position": 0.806905877575918,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 43.52,
-            "mid": 39.51339999999999,
-            "upper": 44.170503537607885,
-            "lower": 34.856296462392095,
-            "position": 0.9301600734925886,
+            "close": 43.2,
+            "mid": 39.49739999999999,
+            "upper": 44.10122716443612,
+            "lower": 34.893572835563866,
+            "position": 0.9021219593778455,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:10.470Z",
+        "fetchedAt": "2026-11-25T09:37:32.414Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -565,17 +596,17 @@
       "600050": {
         "code": "600050",
         "name": "中国联通",
-        "price": 4.48,
-        "change": -0.44,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1400.65,
+        "price": 4.49,
+        "change": 0.22,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1403.77,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.0523,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-26",
@@ -590,44 +621,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:15.077Z"
+          "fetchedAt": "2026-11-25T09:37:35.432Z"
         },
         "dividendAmount": 0.0523,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏下",
-            "close": 4.48,
-            "mid": 4.418,
-            "upper": 4.592424768883322,
-            "lower": 4.243575231116679,
-            "position": 0.6777270521753539,
+            "close": 4.49,
+            "mid": 4.4245,
+            "upper": 4.5994828563031245,
+            "lower": 4.249517143696876,
+            "position": 0.6871611921985485,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 4.48,
-            "mid": 4.3255,
-            "upper": 4.532137363513959,
-            "lower": 4.118862636486041,
-            "position": 0.8738433296202104,
+            "close": 4.49,
+            "mid": 4.326,
+            "upper": 4.534173004974228,
+            "lower": 4.117826995025771,
+            "position": 0.8939031384504046,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 4.48,
-            "mid": 4.8100000000000005,
-            "upper": 5.727908492171197,
-            "lower": 3.8920915078288036,
-            "position": 0.32024351947140905,
+            "close": 4.49,
+            "mid": 4.810499999999999,
+            "upper": 5.7276995420844905,
+            "lower": 3.8933004579155086,
+            "position": 0.32528338420688213,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:15.078Z",
+        "fetchedAt": "2026-11-25T09:37:35.433Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -635,17 +666,17 @@
       "600096": {
         "code": "600096",
         "name": "云天化",
-        "price": 24.95,
-        "change": -1.77,
-        "quoteDate": "2026-11-24",
-        "marketCap": 454.84,
+        "price": 24.44,
+        "change": -2.04,
+        "quoteDate": "2026-11-25",
+        "marketCap": 445.54,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1.4,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-05-14",
@@ -670,44 +701,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:07.728Z"
+          "fetchedAt": "2026-11-25T09:37:29.906Z"
         },
         "dividendAmount": 1.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 24.95,
-            "mid": 25.747499999999995,
-            "upper": 27.107953968350266,
-            "lower": 24.387046031649724,
-            "position": 0.20689930767482365,
+            "close": 24.44,
+            "mid": 25.679000000000002,
+            "upper": 27.153176380220497,
+            "lower": 24.204823619779507,
+            "position": 0.07976534673053116,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 24.95,
-            "mid": 27.8675,
-            "upper": 31.51076707777511,
-            "lower": 24.22423292222489,
-            "position": 0.0996038805667694,
+            "close": 24.44,
+            "mid": 27.842000000000002,
+            "upper": 31.572681439093937,
+            "lower": 24.111318560906067,
+            "position": 0.044051126377298036,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 24.95,
-            "mid": 28.42645,
-            "upper": 39.86040844797417,
-            "lower": 16.992491552025825,
-            "position": 0.3479769707132378,
+            "close": 24.44,
+            "mid": 28.40095,
+            "upper": 39.86803422355047,
+            "lower": 16.933865776449537,
+            "position": 0.3272904461682936,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 650,
+        "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:07.728Z",
+        "fetchedAt": "2026-11-25T09:37:29.907Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -715,17 +746,17 @@
       "600188": {
         "code": "600188",
         "name": "兖矿能源",
-        "price": 16.64,
-        "change": -1.6,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1670.13,
+        "price": 16.67,
+        "change": 0.18,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1673.14,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.52,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-24",
@@ -750,44 +781,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:16.901Z"
+          "fetchedAt": "2026-11-25T09:37:37.129Z"
         },
         "dividendAmount": 0.52,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 16.64,
-            "mid": 17.6015,
-            "upper": 19.095397921546184,
-            "lower": 16.10760207845382,
-            "position": 0.17819086360169445,
+            "close": 16.67,
+            "mid": 17.528000000000002,
+            "upper": 19.05301278683164,
+            "lower": 16.002987213168364,
+            "position": 0.21869088331299222,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 16.64,
-            "mid": 19.533499999999997,
-            "upper": 23.01926117942695,
-            "lower": 16.04773882057304,
-            "position": 0.08495435414831325,
+            "close": 16.67,
+            "mid": 19.535,
+            "upper": 23.015801631808397,
+            "lower": 16.054198368191603,
+            "position": 0.08845686955858907,
             "samples": 20
           },
           "month": {
             "label": "中上偏下",
-            "close": 16.64,
-            "mid": 16.053999999999995,
-            "upper": 23.85465997207928,
-            "lower": 8.25334002792071,
-            "position": 0.537560924466485,
+            "close": 16.67,
+            "mid": 16.0555,
+            "upper": 23.85662165012186,
+            "lower": 8.25437834987814,
+            "position": 0.5393853619748644,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:16.901Z",
+        "fetchedAt": "2026-11-25T09:37:37.130Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -795,17 +826,17 @@
       "600236": {
         "code": "600236",
         "name": "桂冠电力",
-        "price": 9.42,
-        "change": 2.28,
-        "quoteDate": "2026-11-24",
-        "marketCap": 742.52,
+        "price": 9.2,
+        "change": -2.34,
+        "quoteDate": "2026-11-25",
+        "marketCap": 725.18,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.363,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-16",
@@ -830,44 +861,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:04.724Z"
+          "fetchedAt": "2026-11-25T09:37:29.468Z"
         },
         "dividendAmount": 0.363,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "上",
-            "close": 9.42,
-            "mid": 9.0175,
-            "upper": 9.4182929640101,
-            "lower": 8.6167070359899,
-            "position": 1.0021295732999165,
+            "label": "中上偏下",
+            "close": 9.2,
+            "mid": 9.0345,
+            "upper": 9.435971045033138,
+            "lower": 8.63302895496686,
+            "position": 0.7061169815949476,
             "samples": 20
           },
           "week": {
             "label": "中下偏上",
-            "close": 9.42,
-            "mid": 9.728,
-            "upper": 10.842317728477834,
-            "lower": 8.613682271522165,
-            "position": 0.36179884240882987,
+            "close": 9.2,
+            "mid": 9.717,
+            "upper": 10.847488390033263,
+            "lower": 8.586511609966738,
+            "position": 0.27133776668648957,
             "samples": 20
           },
           "month": {
             "label": "中上偏下",
-            "close": 9.42,
-            "mid": 7.9884,
-            "upper": 11.457479843416696,
-            "lower": 4.519320156583305,
-            "position": 0.7063371361597168,
+            "close": 9.2,
+            "mid": 7.9774,
+            "upper": 11.429606563924008,
+            "lower": 4.525193436075994,
+            "position": 0.6770751514084242,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:04.725Z",
+        "fetchedAt": "2026-11-25T09:37:29.469Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -875,17 +906,17 @@
       "600377": {
         "code": "600377",
         "name": "宁沪高速",
-        "price": 14.56,
-        "change": -0.14,
-        "quoteDate": "2026-11-24",
-        "marketCap": 733.5,
+        "price": 14.41,
+        "change": -1.03,
+        "quoteDate": "2026-11-25",
+        "marketCap": 725.94,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.49,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-13",
@@ -900,44 +931,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:06.421Z"
+          "fetchedAt": "2026-11-25T09:37:28.332Z"
         },
         "dividendAmount": 0.49,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 14.56,
-            "mid": 14.125499999999997,
-            "upper": 14.914029644338116,
-            "lower": 13.336970355661878,
-            "position": 0.775512787071383,
+            "label": "中上偏下",
+            "close": 14.41,
+            "mid": 14.157499999999999,
+            "upper": 14.937624989985578,
+            "lower": 13.37737501001442,
+            "position": 0.6618330416544335,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 14.56,
-            "mid": 12.963500000000002,
-            "upper": 14.749078617703518,
-            "lower": 11.177921382296486,
-            "position": 0.9470539645163604,
+            "close": 14.41,
+            "mid": 12.956000000000003,
+            "upper": 14.71576589352107,
+            "lower": 11.196234106478936,
+            "position": 0.9131231334102995,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 14.56,
-            "mid": 12.799500000000002,
-            "upper": 15.156009919351074,
-            "lower": 10.44299008064893,
-            "position": 0.8735396964687505,
+            "close": 14.41,
+            "mid": 12.792000000000002,
+            "upper": 15.126905565542215,
+            "lower": 10.457094434457789,
+            "position": 0.8464808221535645,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 650,
+        "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:06.422Z",
+        "fetchedAt": "2026-11-25T09:37:28.333Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -945,17 +976,17 @@
       "600519": {
         "code": "600519",
         "name": "贵州茅台",
-        "price": 1460,
-        "change": 1.46,
-        "quoteDate": "2026-11-24",
-        "marketCap": 18251.19,
+        "price": 1474.84,
+        "change": 1.02,
+        "quoteDate": "2026-11-25",
+        "marketCap": 18436.7,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 51.98123,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-19",
@@ -980,62 +1011,64 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:20.083Z"
+          "fetchedAt": "2026-11-25T09:37:47.090Z"
         },
         "dividendAmount": 51.98123,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏下",
-            "close": 1460,
-            "mid": 1433.9189999999999,
-            "upper": 1509.570953286085,
-            "lower": 1358.2670467139149,
-            "position": 0.6723749279901099,
+            "label": "中上偏上",
+            "close": 1474.84,
+            "mid": 1441.1235000000001,
+            "upper": 1502.129531595245,
+            "lower": 1380.1174684047553,
+            "position": 0.776337430237208,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 1460,
-            "mid": 1331.6704999999997,
-            "upper": 1480.0358268759244,
-            "lower": 1183.305173124075,
-            "position": 0.9324780685022181,
+            "close": 1474.84,
+            "mid": 1332.4125,
+            "upper": 1483.461753540029,
+            "lower": 1181.363246459971,
+            "position": 0.9714604563148531,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 1460,
-            "mid": 1370.2884,
-            "upper": 1505.752411274434,
-            "lower": 1234.8243887255658,
-            "position": 0.8311270615567958,
+            "close": 1474.84,
+            "mid": 1371.0304,
+            "upper": 1508.5980897827394,
+            "lower": 1233.4627102172608,
+            "position": 0.8773037119542617,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:20.084Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:47.092Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
       "600690": {
         "code": "600690",
         "name": "海尔智家",
-        "price": 22.68,
-        "change": -0.18,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2108.91,
+        "price": 22.6,
+        "change": -0.35,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2101.47,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 0.89151,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-08-21",
@@ -1050,62 +1083,64 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:19.315Z"
+          "fetchedAt": "2026-11-25T09:37:42.626Z"
         },
         "dividendAmount": 0.89151,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 22.68,
-            "mid": 21.506499999999996,
-            "upper": 23.50679272857749,
-            "lower": 19.5062072714225,
-            "position": 0.7933320666606974,
+            "close": 22.6,
+            "mid": 21.663000000000004,
+            "upper": 23.483132962176118,
+            "lower": 19.84286703782389,
+            "position": 0.757398777856245,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 22.68,
-            "mid": 21.0765,
-            "upper": 22.775053207880163,
-            "lower": 19.377946792119836,
-            "position": 0.9720193611129817,
+            "close": 22.6,
+            "mid": 21.072499999999998,
+            "upper": 22.756241963603685,
+            "lower": 19.38875803639631,
+            "position": 0.9536027589199947,
             "samples": 20
           },
           "month": {
             "label": "中",
-            "close": 22.68,
-            "mid": 22.8013,
-            "upper": 26.918770539056716,
-            "lower": 18.683829460943286,
-            "position": 0.48527008282762474,
+            "close": 22.6,
+            "mid": 22.7973,
+            "upper": 26.915389513354462,
+            "lower": 18.679210486645538,
+            "position": 0.47604471693000133,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:19.316Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:42.627Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
       "600795": {
         "code": "600795",
         "name": "国电电力",
-        "price": 5.42,
-        "change": 0,
-        "quoteDate": "2026-11-24",
-        "marketCap": 966.69,
+        "price": 5.38,
+        "change": -0.74,
+        "quoteDate": "2026-11-25",
+        "marketCap": 959.56,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.141,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-13",
@@ -1120,44 +1155,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:00.438Z"
+          "fetchedAt": "2026-11-25T09:37:25.221Z"
         },
         "dividendAmount": 0.141,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏下",
-            "close": 5.42,
-            "mid": 5.400500000000001,
-            "upper": 5.617615176807151,
-            "lower": 5.183384823192851,
-            "position": 0.5449070403247757,
+            "label": "中下偏上",
+            "close": 5.38,
+            "mid": 5.406499999999999,
+            "upper": 5.614180042372877,
+            "lower": 5.198819957627122,
+            "position": 0.43619993597550333,
             "samples": 20
           },
           "week": {
             "label": "中上偏下",
-            "close": 5.42,
-            "mid": 5.2315000000000005,
-            "upper": 5.648981736127463,
-            "lower": 4.814018263872538,
-            "position": 0.7257583789754672,
+            "close": 5.38,
+            "mid": 5.2295,
+            "upper": 5.643720955529775,
+            "lower": 4.815279044470224,
+            "position": 0.681666328068211,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 5.42,
-            "mid": 4.82275,
-            "upper": 5.627729968694874,
-            "lower": 4.017770031305126,
-            "position": 0.8709719640405029,
+            "close": 5.38,
+            "mid": 4.820749999999999,
+            "upper": 5.619962581232302,
+            "lower": 4.021537418767696,
+            "position": 0.8498756232901733,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:00.439Z",
+        "fetchedAt": "2026-11-25T09:37:25.222Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1165,17 +1200,17 @@
       "600886": {
         "code": "600886",
         "name": "国投电力",
-        "price": 16.33,
-        "change": 1.11,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1307.13,
+        "price": 16.53,
+        "change": 1.22,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1323.14,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.5081,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-08-07",
@@ -1190,44 +1225,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:02.684Z"
+          "fetchedAt": "2026-11-25T09:37:25.533Z"
         },
         "dividendAmount": 0.5081,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 16.33,
-            "mid": 15.913499999999996,
-            "upper": 16.574174655182105,
-            "lower": 15.252825344817886,
-            "position": 0.8152080957950459,
+            "close": 16.53,
+            "mid": 15.945999999999998,
+            "upper": 16.658780471112948,
+            "lower": 15.233219528887048,
+            "position": 0.9096633000397258,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 16.33,
-            "mid": 15.000800000000002,
-            "upper": 16.870393495923647,
-            "lower": 13.131206504076356,
-            "position": 0.8554783440619868,
+            "close": 16.53,
+            "mid": 15.0108,
+            "upper": 16.910619949363625,
+            "lower": 13.110980050636377,
+            "position": 0.899827362721631,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 16.33,
-            "mid": 13.8967,
-            "upper": 16.121899775301085,
-            "lower": 11.671500224698914,
-            "position": 1.0467598970233485,
+            "close": 16.53,
+            "mid": 13.9067,
+            "upper": 16.176893392643017,
+            "lower": 11.636506607356987,
+            "position": 1.077770160132897,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:02.685Z",
+        "fetchedAt": "2026-11-25T09:37:25.534Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1235,17 +1270,17 @@
       "600887": {
         "code": "600887",
         "name": "伊利股份",
-        "price": 33,
-        "change": 0.46,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2087.37,
+        "price": 33.58,
+        "change": 1.76,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2124.06,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 1.38,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-17",
@@ -1270,62 +1305,64 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:22.494Z"
+          "fetchedAt": "2026-11-25T09:37:46.068Z"
         },
         "dividendAmount": 1.38,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 33,
-            "mid": 31.416500000000003,
-            "upper": 33.79718288522432,
-            "lower": 29.035817114775682,
-            "position": 0.832572643300788,
+            "close": 33.58,
+            "mid": 31.661,
+            "upper": 33.86960046183098,
+            "lower": 29.452399538169026,
+            "position": 0.934438014743759,
             "samples": 20
           },
           "week": {
             "label": "上",
-            "close": 33,
-            "mid": 28.1145,
-            "upper": 32.88078356269327,
-            "lower": 23.348216437306736,
-            "position": 1.0125062258401771,
+            "close": 33.58,
+            "mid": 28.1435,
+            "upper": 33.03377719050771,
+            "lower": 23.25322280949229,
+            "position": 1.0558478372711195,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 33,
-            "mid": 26.9435,
-            "upper": 30.688797184470147,
-            "lower": 23.198202815529854,
-            "position": 1.3085473197044606,
+            "close": 33.58,
+            "mid": 26.972500000000004,
+            "upper": 30.909030833106737,
+            "lower": 23.03596916689327,
+            "position": 1.3392541910798799,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:22.495Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:46.069Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
       "600900": {
         "code": "600900",
         "name": "长江电力",
-        "price": 31.64,
-        "change": 0.93,
-        "quoteDate": "2026-11-24",
-        "marketCap": 7741.74,
+        "price": 31.96,
+        "change": 1.01,
+        "quoteDate": "2026-11-25",
+        "marketCap": 7820.04,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-02-12",
@@ -1350,44 +1387,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:59.101Z"
+          "fetchedAt": "2026-11-25T09:37:24.315Z"
         },
         "dividendAmount": 1,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "上",
-            "close": 31.64,
-            "mid": 30.155500000000007,
-            "upper": 31.597089053787528,
-            "lower": 28.713910946212486,
-            "position": 1.014883210336445,
+            "close": 31.96,
+            "mid": 30.283500000000004,
+            "upper": 31.880287712878584,
+            "lower": 28.686712287121424,
+            "position": 1.0249602018097062,
             "samples": 20
           },
           "week": {
             "label": "上",
-            "close": 31.64,
-            "mid": 29.026000000000003,
-            "upper": 31.196671785415752,
-            "lower": 26.855328214584254,
-            "position": 1.102117744737567,
+            "close": 31.96,
+            "mid": 29.04200000000001,
+            "upper": 31.292747431410294,
+            "lower": 26.791252568589723,
+            "position": 1.1482291080904656,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 31.64,
-            "mid": 27.411049999999996,
-            "upper": 30.504526521650032,
-            "lower": 24.31757347834996,
-            "position": 1.1835270884396945,
+            "close": 31.96,
+            "mid": 27.427049999999998,
+            "upper": 30.60987242514407,
+            "lower": 24.244227574855927,
+            "position": 1.2120959630342585,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:59.102Z",
+        "fetchedAt": "2026-11-25T09:37:24.316Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1395,17 +1432,17 @@
       "600901": {
         "code": "600901",
         "name": "江苏金租",
-        "price": 7.76,
-        "change": -0.26,
-        "quoteDate": "2026-11-24",
-        "marketCap": 449.45,
+        "price": 7.66,
+        "change": -1.29,
+        "quoteDate": "2026-11-25",
+        "marketCap": 443.66,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 0.3,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-12",
@@ -1430,62 +1467,64 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:20.381Z"
+          "fetchedAt": "2026-11-25T09:37:46.878Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏下",
-            "close": 7.76,
-            "mid": 7.646499999999999,
-            "upper": 7.910187314825722,
-            "lower": 7.382812685174276,
-            "position": 0.7152170271729148,
+            "label": "中",
+            "close": 7.66,
+            "mid": 7.6530000000000005,
+            "upper": 7.911232453421332,
+            "lower": 7.394767546578669,
+            "position": 0.5135536798478588,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 7.76,
-            "mid": 6.9515,
-            "upper": 7.913586794421377,
-            "lower": 5.989413205578623,
-            "position": 0.9201803853290865,
+            "close": 7.66,
+            "mid": 6.9465,
+            "upper": 7.892634768413042,
+            "lower": 6.000365231586959,
+            "position": 0.8770604483739449,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 7.76,
-            "mid": 6.1475,
-            "upper": 7.589274947764039,
-            "lower": 4.705725052235961,
-            "position": 1.05920655387331,
+            "close": 7.66,
+            "mid": 6.1425,
+            "upper": 7.562399644341106,
+            "lower": 4.722600355658894,
+            "position": 1.0343687513578415,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:20.382Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:46.879Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       },
       "600919": {
         "code": "600919",
         "name": "江苏银行",
-        "price": 13.57,
-        "change": 0.52,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2490.27,
+        "price": 13.51,
+        "change": -0.44,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2479.26,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.5641,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-14",
@@ -1510,44 +1549,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:11.406Z"
+          "fetchedAt": "2026-11-25T09:37:33.012Z"
         },
         "dividendAmount": 0.5641,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 13.57,
-            "mid": 13.038999999999998,
-            "upper": 13.872808131406739,
-            "lower": 12.205191868593257,
-            "position": 0.8184185785668325,
+            "close": 13.51,
+            "mid": 13.093499999999997,
+            "upper": 13.90040210062931,
+            "lower": 12.286597899370683,
+            "position": 0.7580858320204947,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 13.57,
-            "mid": 12.323,
-            "upper": 13.583334876134117,
-            "lower": 11.062665123865884,
-            "position": 0.9947097884908892,
+            "close": 13.51,
+            "mid": 12.32,
+            "upper": 13.568679302303037,
+            "lower": 11.071320697696963,
+            "position": 0.976503453611023,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 13.57,
-            "mid": 10.8812,
-            "upper": 13.125183654129415,
-            "lower": 8.637216345870584,
-            "position": 1.0991130984960666,
+            "close": 13.51,
+            "mid": 10.8782,
+            "upper": 13.10791196346075,
+            "lower": 8.648488036539248,
+            "position": 1.0901659145056488,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:11.406Z",
+        "fetchedAt": "2026-11-25T09:37:33.014Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1555,17 +1594,17 @@
       "600938": {
         "code": "600938",
         "name": "中国海油",
-        "price": 29.66,
-        "change": -1.46,
-        "quoteDate": "2026-11-24",
-        "marketCap": 14097.38,
+        "price": 29.87,
+        "change": 0.71,
+        "quoteDate": "2026-11-25",
+        "marketCap": 14197.2,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1.29205,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-10",
@@ -1590,44 +1629,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:15.478Z"
+          "fetchedAt": "2026-11-25T09:37:35.800Z"
         },
         "dividendAmount": 1.29205,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏下",
-            "close": 29.66,
-            "mid": 31.758499999999998,
-            "upper": 35.95320749874172,
-            "lower": 27.56379250125828,
-            "position": 0.24986336942093296,
+            "label": "中下偏上",
+            "close": 29.87,
+            "mid": 31.509500000000003,
+            "upper": 35.528128995067846,
+            "lower": 27.49087100493216,
+            "position": 0.2960125204376669,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 29.66,
-            "mid": 32.03955,
-            "upper": 35.525057508240366,
-            "lower": 28.554042491759628,
-            "position": 0.15865085724613837,
+            "close": 29.87,
+            "mid": 32.05005,
+            "upper": 35.50797703653504,
+            "lower": 28.59212296346496,
+            "position": 0.1847750144860659,
             "samples": 20
           },
           "month": {
             "label": "中",
-            "close": 29.66,
-            "mid": 29.5645,
-            "upper": 40.10557638716274,
-            "lower": 19.023423612837256,
-            "position": 0.5045298979199271,
+            "close": 29.87,
+            "mid": 29.575,
+            "upper": 40.11685431506241,
+            "lower": 19.033145684937587,
+            "position": 0.5139918457978735,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:15.479Z",
+        "fetchedAt": "2026-11-25T09:37:35.801Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1635,17 +1674,17 @@
       "600941": {
         "code": "600941",
         "name": "中国移动",
-        "price": 107.77,
-        "change": 0.02,
-        "quoteDate": "2026-11-24",
-        "marketCap": 23388.52,
+        "price": 107.53,
+        "change": -0.22,
+        "quoteDate": "2026-11-25",
+        "marketCap": 23336.43,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 4.7112,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-05",
@@ -1670,44 +1709,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:14.689Z"
+          "fetchedAt": "2026-11-25T09:37:34.707Z"
         },
         "dividendAmount": 4.7112,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 107.77,
-            "mid": 103.41150000000002,
-            "upper": 109.47840786150574,
-            "lower": 97.34459213849429,
-            "position": 0.8592027520027522,
+            "close": 107.53,
+            "mid": 103.819,
+            "upper": 109.8426995276989,
+            "lower": 97.79530047230111,
+            "position": 0.8080332927410834,
             "samples": 20
           },
           "week": {
             "label": "上",
-            "close": 107.77,
-            "mid": 97.75950000000002,
-            "upper": 107.4575378943372,
-            "lower": 88.06146210566284,
-            "position": 1.0161095527294883,
+            "close": 107.53,
+            "mid": 97.74750000000002,
+            "upper": 107.39643128797175,
+            "lower": 88.09856871202828,
+            "position": 1.0069214251838832,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 107.77,
-            "mid": 97.84144999999998,
-            "upper": 110.56538669388524,
-            "lower": 85.11751330611472,
-            "position": 0.8901524441241276,
+            "close": 107.53,
+            "mid": 97.82944999999998,
+            "upper": 110.51630808977146,
+            "lower": 85.1425919102285,
+            "position": 0.8823070271362495,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:14.690Z",
+        "fetchedAt": "2026-11-25T09:37:34.709Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1715,17 +1754,17 @@
       "601006": {
         "code": "601006",
         "name": "大秦铁路",
-        "price": 4.96,
-        "change": 0.2,
-        "quoteDate": "2026-11-24",
-        "marketCap": 980.08,
+        "price": 4.94,
+        "change": -0.4,
+        "quoteDate": "2026-11-25",
+        "marketCap": 976.13,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.22177,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-10",
@@ -1750,44 +1789,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:17.907Z"
+          "fetchedAt": "2026-11-25T09:37:37.239Z"
         },
         "dividendAmount": 0.22177,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏下",
-            "close": 4.96,
-            "mid": 4.8975,
-            "upper": 5.0293901057699175,
-            "lower": 4.765609894230082,
-            "position": 0.736939684122444,
+            "close": 4.94,
+            "mid": 4.903499999999999,
+            "upper": 5.0316054253339795,
+            "lower": 4.775394574666019,
+            "position": 0.6424607892477736,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 4.96,
-            "mid": 4.767999999999999,
-            "upper": 5.026889938004549,
-            "lower": 4.5091100619954485,
-            "position": 0.8708139479654601,
+            "close": 4.94,
+            "mid": 4.7669999999999995,
+            "upper": 5.023054681659992,
+            "lower": 4.510945318340007,
+            "position": 0.8378184668963068,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 4.96,
-            "mid": 5.266000000000001,
-            "upper": 6.42028246109867,
-            "lower": 4.111717538901332,
-            "position": 0.3674501214768766,
+            "close": 4.94,
+            "mid": 5.2650000000000015,
+            "upper": 6.420375263713051,
+            "lower": 4.109624736286952,
+            "position": 0.35935305601249296,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:17.908Z",
+        "fetchedAt": "2026-11-25T09:37:37.240Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1795,17 +1834,17 @@
       "601166": {
         "code": "601166",
         "name": "兴业银行",
-        "price": 20.2,
-        "change": 0.7,
-        "quoteDate": "2026-11-24",
-        "marketCap": 4274.9,
+        "price": 20.48,
+        "change": 1.39,
+        "quoteDate": "2026-11-25",
+        "marketCap": 4334.15,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1.066,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-02-06",
@@ -1830,44 +1869,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:11.072Z"
+          "fetchedAt": "2026-11-25T09:37:32.677Z"
         },
         "dividendAmount": 1.066,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 20.2,
-            "mid": 19.796499999999998,
-            "upper": 20.388218683159486,
-            "lower": 19.20478131684051,
-            "position": 0.8409559402835723,
+            "label": "上",
+            "close": 20.48,
+            "mid": 19.865499999999997,
+            "upper": 20.437775283408254,
+            "lower": 19.29322471659174,
+            "position": 1.0368919625012218,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 20.2,
-            "mid": 18.576,
-            "upper": 20.276828033635383,
-            "lower": 16.87517196636462,
-            "position": 0.9774145204229819,
+            "label": "上",
+            "close": 20.48,
+            "mid": 18.59,
+            "upper": 20.347725803417585,
+            "lower": 16.832274196582414,
+            "position": 1.0376265161281786,
             "samples": 20
           },
           "month": {
             "label": "中上偏下",
-            "close": 20.2,
-            "mid": 19.126299999999997,
-            "upper": 22.12988286717713,
-            "lower": 16.122717132822864,
-            "position": 0.6787365369095179,
+            "close": 20.48,
+            "mid": 19.1403,
+            "upper": 22.166297428948017,
+            "lower": 16.114302571051983,
+            "position": 0.7213650261536648,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 650,
+        "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:11.073Z",
+        "fetchedAt": "2026-11-25T09:37:32.678Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1875,17 +1914,17 @@
       "601186": {
         "code": "601186",
         "name": "中国铁建",
-        "price": 5.74,
-        "change": -0.86,
-        "quoteDate": "2026-11-24",
-        "marketCap": 779.47,
+        "price": 5.7,
+        "change": -0.7,
+        "quoteDate": "2026-11-25",
+        "marketCap": 774.03,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.3,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-28",
@@ -1900,44 +1939,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:12.162Z"
+          "fetchedAt": "2026-11-25T09:37:31.338Z"
         },
         "dividendAmount": 0.3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏下",
-            "close": 5.74,
-            "mid": 5.930999999999999,
-            "upper": 6.123135368945959,
-            "lower": 5.73886463105404,
-            "position": 0.0029546068279596516,
+            "label": "下",
+            "close": 5.7,
+            "mid": 5.911,
+            "upper": 6.111688813838739,
+            "lower": 5.7103111861612605,
+            "position": -0.025689489025396774,
             "samples": 20
           },
           "week": {
             "label": "下",
-            "close": 5.74,
-            "mid": 6.0525,
-            "upper": 6.328968804750192,
-            "lower": 5.776031195249808,
-            "position": -0.06516322028151487,
+            "close": 5.7,
+            "mid": 6.0505,
+            "upper": 6.336400332283823,
+            "lower": 5.764599667716178,
+            "position": -0.11297585280881657,
             "samples": 20
           },
           "month": {
             "label": "中下偏下",
-            "close": 5.74,
-            "mid": 6.840999999999999,
-            "upper": 8.235659815152067,
-            "lower": 5.446340184847932,
-            "position": 0.10528008764633727,
+            "close": 5.7,
+            "mid": 6.838999999999999,
+            "upper": 8.240069591419354,
+            "lower": 5.437930408580643,
+            "position": 0.09352483025267408,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:12.162Z",
+        "fetchedAt": "2026-11-25T09:37:31.339Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -1945,17 +1984,17 @@
       "601225": {
         "code": "601225",
         "name": "陕西煤业",
-        "price": 27.34,
-        "change": -0.87,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2650.61,
+        "price": 27.15,
+        "change": -0.69,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2632.19,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.967,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-26",
@@ -1980,44 +2019,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:16.378Z"
+          "fetchedAt": "2026-11-25T09:37:36.606Z"
         },
         "dividendAmount": 0.967,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏下",
-            "close": 27.34,
-            "mid": 27.063000000000006,
-            "upper": 28.500179181591502,
-            "lower": 25.62582081840851,
-            "position": 0.5963693336043356,
+            "close": 27.15,
+            "mid": 27.076,
+            "upper": 28.511387055814563,
+            "lower": 25.64061294418544,
+            "position": 0.5257770194109783,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 27.34,
-            "mid": 26.161399999999997,
-            "upper": 28.44211641376125,
-            "lower": 23.880683586238742,
-            "position": 0.758383723835334,
+            "label": "中上偏下",
+            "close": 27.15,
+            "mid": 26.151899999999994,
+            "upper": 28.414410278429685,
+            "lower": 23.889389721570303,
+            "position": 0.7205735835800804,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 27.34,
-            "mid": 22.396649999999998,
-            "upper": 29.05095399891679,
-            "lower": 15.742346001083206,
-            "position": 0.8714400484862651,
+            "close": 27.15,
+            "mid": 22.38715,
+            "upper": 29.01368198211553,
+            "lower": 15.760618017884468,
+            "position": 0.8593772740292014,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:16.378Z",
+        "fetchedAt": "2026-11-25T09:37:36.607Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2025,17 +2064,17 @@
       "601288": {
         "code": "601288",
         "name": "农业银行",
-        "price": 7.93,
-        "change": 1.28,
-        "quoteDate": "2026-11-24",
-        "marketCap": 27753.65,
+        "price": 7.96,
+        "change": 0.38,
+        "quoteDate": "2026-11-25",
+        "marketCap": 27858.65,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.3792,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-15",
@@ -2070,44 +2109,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:13.393Z"
+          "fetchedAt": "2026-11-25T09:37:33.906Z"
         },
         "dividendAmount": 0.3792,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "上",
-            "close": 7.93,
-            "mid": 7.4970000000000026,
-            "upper": 7.885643795782207,
-            "lower": 7.108356204217798,
-            "position": 1.0570653702685757,
+            "close": 7.96,
+            "mid": 7.523500000000003,
+            "upper": 7.959631860794419,
+            "lower": 7.087368139205587,
+            "position": 1.0004220503460932,
             "samples": 20
           },
           "week": {
             "label": "上",
-            "close": 7.93,
-            "mid": 6.923,
-            "upper": 7.821489844127356,
-            "lower": 6.024510155872644,
-            "position": 1.0603847425665853,
+            "close": 7.96,
+            "mid": 6.9245,
+            "upper": 7.829783933360137,
+            "lower": 6.0192160666398635,
+            "position": 1.0719200141752991,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 7.93,
-            "mid": 6.5235,
-            "upper": 8.16983623540272,
-            "lower": 4.877163764597281,
-            "position": 0.9271606157219603,
+            "close": 7.96,
+            "mid": 6.525,
+            "upper": 8.176505979401831,
+            "lower": 4.873494020598169,
+            "position": 0.93445195412485,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:13.394Z",
+        "fetchedAt": "2026-11-25T09:37:33.907Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2115,17 +2154,17 @@
       "601298": {
         "code": "601298",
         "name": "青岛港",
-        "price": 10.01,
-        "change": -0.2,
-        "quoteDate": "2026-11-24",
-        "marketCap": 649.76,
+        "price": 9.9,
+        "change": -1.1,
+        "quoteDate": "2026-11-25",
+        "marketCap": 642.62,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.4853,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-24",
@@ -2160,44 +2199,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:05.349Z"
+          "fetchedAt": "2026-11-25T09:37:27.863Z"
         },
         "dividendAmount": 0.4853,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 10.01,
-            "mid": 9.840999999999998,
-            "upper": 10.168530151283814,
-            "lower": 9.51346984871618,
-            "position": 0.7579915151896315,
+            "label": "中上偏下",
+            "close": 9.9,
+            "mid": 9.853499999999999,
+            "upper": 10.169808393818437,
+            "lower": 9.53719160618156,
+            "position": 0.5735042144134386,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 10.01,
-            "mid": 9.3057,
-            "upper": 10.52243449856573,
-            "lower": 8.08896550143427,
-            "position": 0.78942222022562,
+            "label": "中上偏下",
+            "close": 9.9,
+            "mid": 9.3002,
+            "upper": 10.505086982251862,
+            "lower": 8.095313017748138,
+            "position": 0.7489030128282279,
             "samples": 20
           },
           "month": {
-            "label": "上",
-            "close": 10.01,
-            "mid": 8.561699999999998,
-            "upper": 10.007378677991758,
-            "lower": 7.116021322008239,
-            "position": 1.000906606028071,
+            "label": "中上偏上",
+            "close": 9.9,
+            "mid": 8.556199999999999,
+            "upper": 9.980475478971677,
+            "lower": 7.1319245210283215,
+            "position": 0.9717486258242052,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:05.349Z",
+        "fetchedAt": "2026-11-25T09:37:27.864Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2206,16 +2245,16 @@
         "code": "601318",
         "name": "中国平安",
         "price": 54.88,
-        "change": 2.2,
-        "quoteDate": "2026-11-24",
+        "change": 0,
+        "quoteDate": "2026-11-25",
         "marketCap": 9937.47,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 2.73,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-10",
@@ -2240,7 +2279,7 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:57.781Z"
+          "fetchedAt": "2026-11-25T09:37:22.937Z"
         },
         "dividendAmount": 2.73,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
@@ -2248,10 +2287,10 @@
           "day": {
             "label": "中上偏上",
             "close": 54.88,
-            "mid": 54.025999999999996,
-            "upper": 55.5791439083356,
-            "lower": 52.47285609166439,
-            "position": 0.7749262304080944,
+            "mid": 54.154500000000006,
+            "upper": 55.53404304028545,
+            "lower": 52.774956959714565,
+            "position": 0.762949389331805,
             "samples": 20
           },
           "week": {
@@ -2272,12 +2311,12 @@
             "position": 0.5264603451058737,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:57.782Z",
+        "fetchedAt": "2026-11-25T09:37:22.938Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2285,17 +2324,17 @@
       "601328": {
         "code": "601328",
         "name": "交通银行",
-        "price": 8.98,
-        "change": 0.56,
-        "quoteDate": "2026-11-24",
-        "marketCap": 7935.07,
+        "price": 9.14,
+        "change": 1.78,
+        "quoteDate": "2026-11-25",
+        "marketCap": 8076.45,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.3247,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-25",
@@ -2320,44 +2359,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:13.595Z"
+          "fetchedAt": "2026-11-25T09:37:34.647Z"
         },
         "dividendAmount": 0.3247,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 8.98,
-            "mid": 8.565,
-            "upper": 9.033209354883049,
-            "lower": 8.09679064511695,
-            "position": 0.943177817435601,
+            "label": "上",
+            "close": 9.14,
+            "mid": 8.609,
+            "upper": 9.117916496097346,
+            "lower": 8.100083503902654,
+            "position": 1.0216965888038643,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 8.98,
-            "mid": 7.705999999999999,
-            "upper": 9.06384240617238,
-            "lower": 6.348157593827618,
-            "position": 0.9691266063752114,
+            "label": "上",
+            "close": 9.14,
+            "mid": 7.713999999999999,
+            "upper": 9.103293345553773,
+            "lower": 6.324706654446223,
+            "position": 1.0132105485726617,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 8.98,
-            "mid": 7.1397,
-            "upper": 8.526277527583655,
-            "lower": 5.7531224724163454,
-            "position": 1.1636123705275365,
+            "close": 9.14,
+            "mid": 7.1477,
+            "upper": 8.57781903001114,
+            "lower": 5.717580969988862,
+            "position": 1.1965504123053594,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:13.596Z",
+        "fetchedAt": "2026-11-25T09:37:34.648Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2365,17 +2404,17 @@
       "601336": {
         "code": "601336",
         "name": "新华保险",
-        "price": 51.42,
-        "change": 0.96,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1604.07,
+        "price": 50.79,
+        "change": -1.23,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1584.42,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 2.73,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-12",
@@ -2400,44 +2439,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:56.571Z"
+          "fetchedAt": "2026-11-25T09:37:22.720Z"
         },
         "dividendAmount": 2.73,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏上",
-            "close": 51.42,
-            "mid": 51.52049999999999,
-            "upper": 52.9262805660913,
-            "lower": 50.11471943390868,
-            "position": 0.464254734193892,
+            "label": "中下偏下",
+            "close": 50.79,
+            "mid": 51.5175,
+            "upper": 52.929234748456665,
+            "lower": 50.10576525154333,
+            "position": 0.24233828245875683,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 51.42,
-            "mid": 56.44350000000001,
-            "upper": 64.5103464098432,
-            "lower": 48.37665359015681,
-            "position": 0.18863297100399035,
+            "close": 50.79,
+            "mid": 56.412,
+            "upper": 64.56156096977008,
+            "lower": 48.26243903022991,
+            "position": 0.1550734437809472,
             "samples": 20
           },
           "month": {
-            "label": "中下偏上",
-            "close": 51.42,
-            "mid": 59.7675,
-            "upper": 76.98250726110797,
-            "lower": 42.552492738892035,
-            "position": 0.2575516561396225,
+            "label": "中下偏下",
+            "close": 50.79,
+            "mid": 59.73599999999999,
+            "upper": 77.0141786077121,
+            "lower": 42.45782139228788,
+            "position": 0.24111854602524632,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:56.572Z",
+        "fetchedAt": "2026-11-25T09:37:22.721Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2445,17 +2484,17 @@
       "601390": {
         "code": "601390",
         "name": "中国中铁",
-        "price": 4.22,
-        "change": 0.24,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1035.22,
+        "price": 4.19,
+        "change": -0.71,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1027.86,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.23174,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-23",
@@ -2490,44 +2529,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:09.104Z"
+          "fetchedAt": "2026-11-25T09:37:31.327Z"
         },
         "dividendAmount": 0.23174,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 4.22,
-            "mid": 4.296999999999999,
-            "upper": 4.424137720602501,
-            "lower": 4.169862279397496,
-            "position": 0.19717877733257272,
+            "close": 4.19,
+            "mid": 4.2945,
+            "upper": 4.427837916587894,
+            "lower": 4.161162083412107,
+            "position": 0.1081384700085832,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 4.22,
-            "mid": 4.3065000000000015,
-            "upper": 4.476520586988754,
-            "lower": 4.136479413011249,
-            "position": 0.2456190408114402,
+            "close": 4.19,
+            "mid": 4.3050000000000015,
+            "upper": 4.478539620836282,
+            "lower": 4.1314603791637206,
+            "position": 0.16866356096140925,
             "samples": 20
           },
           "month": {
             "label": "中下偏下",
-            "close": 4.22,
-            "mid": 4.9839,
-            "upper": 6.079914945153578,
-            "lower": 3.8878850548464223,
-            "position": 0.1515102264901325,
+            "close": 4.19,
+            "mid": 4.9824,
+            "upper": 6.082666585878168,
+            "lower": 3.8821334141218324,
+            "position": 0.13990545101960314,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:09.105Z",
+        "fetchedAt": "2026-11-25T09:37:31.328Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2535,17 +2574,17 @@
       "601398": {
         "code": "601398",
         "name": "工商银行",
-        "price": 9.22,
-        "change": 0.77,
-        "quoteDate": "2026-11-24",
-        "marketCap": 32860.66,
+        "price": 9.2,
+        "change": -0.22,
+        "quoteDate": "2026-11-25",
+        "marketCap": 32789.38,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.4614,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-15",
@@ -2580,44 +2619,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:12.661Z"
+          "fetchedAt": "2026-11-25T09:37:33.559Z"
         },
         "dividendAmount": 0.4614,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 9.22,
-            "mid": 8.7945,
-            "upper": 9.379392297777976,
-            "lower": 8.209607702222023,
-            "position": 0.8637421809250085,
+            "close": 9.2,
+            "mid": 8.8265,
+            "upper": 9.426409159790047,
+            "lower": 8.226590840209951,
+            "position": 0.8112971304944858,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 9.22,
-            "mid": 8.1158,
-            "upper": 9.246200035385703,
-            "lower": 6.985399964614296,
-            "position": 0.9884111665934427,
+            "close": 9.2,
+            "mid": 8.114799999999999,
+            "upper": 9.241319702446432,
+            "lower": 6.988280297553565,
+            "position": 0.9816604617048862,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 9.22,
-            "mid": 7.355099999999998,
-            "upper": 8.784033714347869,
-            "lower": 5.926166285652128,
-            "position": 1.1525495134150068,
+            "close": 9.2,
+            "mid": 7.354099999999998,
+            "upper": 8.777830437969207,
+            "lower": 5.930369562030788,
+            "position": 1.1482617603627865,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:12.662Z",
+        "fetchedAt": "2026-11-25T09:37:33.560Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2625,17 +2664,17 @@
       "601601": {
         "code": "601601",
         "name": "中国太保",
-        "price": 32.66,
-        "change": 2.32,
-        "quoteDate": "2026-11-24",
-        "marketCap": 3142,
+        "price": 32.22,
+        "change": -1.35,
+        "quoteDate": "2026-11-25",
+        "marketCap": 3099.67,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1.57,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-17",
@@ -2660,44 +2699,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:57.948Z"
+          "fetchedAt": "2026-11-25T09:37:23.029Z"
         },
         "dividendAmount": 1.57,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 32.66,
-            "mid": 31.712499999999995,
-            "upper": 33.365822412598334,
-            "lower": 30.059177587401656,
-            "position": 0.7865442314154937,
+            "label": "中上偏下",
+            "close": 32.22,
+            "mid": 31.843499999999995,
+            "upper": 33.19398546826687,
+            "lower": 30.49301453173312,
+            "position": 0.6393943173943151,
             "samples": 20
           },
           "week": {
-            "label": "中上偏上",
-            "close": 32.66,
-            "mid": 31.100999999999992,
-            "upper": 33.74393700265443,
-            "lower": 28.45806299734556,
-            "position": 0.7949370337685351,
+            "label": "中上偏下",
+            "close": 32.22,
+            "mid": 31.078999999999997,
+            "upper": 33.676598121342096,
+            "lower": 28.4814018786579,
+            "position": 0.7196259672782798,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 32.66,
-            "mid": 33.9455,
-            "upper": 42.271640702630485,
-            "lower": 25.61935929736952,
-            "position": 0.4228033703781947,
+            "close": 32.22,
+            "mid": 33.923500000000004,
+            "upper": 42.26542130147486,
+            "lower": 25.581578698525146,
+            "position": 0.39789522470687755,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:57.949Z",
+        "fetchedAt": "2026-11-25T09:37:23.030Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2705,17 +2744,17 @@
       "601628": {
         "code": "601628",
         "name": "中国人寿",
-        "price": 35.72,
-        "change": 3.12,
-        "quoteDate": "2026-11-24",
-        "marketCap": 10096.15,
+        "price": 35.1,
+        "change": -1.74,
+        "quoteDate": "2026-11-25",
+        "marketCap": 9920.91,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.976,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-09",
@@ -2740,44 +2779,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:00.650Z"
+          "fetchedAt": "2026-11-25T09:37:23.015Z"
         },
         "dividendAmount": 0.976,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏上",
-            "close": 35.72,
-            "mid": 35.1735,
-            "upper": 36.025328034288606,
-            "lower": 34.32167196571139,
-            "position": 0.8207807080782467,
+            "label": "中下偏上",
+            "close": 35.1,
+            "mid": 35.1785,
+            "upper": 36.027364535718156,
+            "lower": 34.32963546428184,
+            "position": 0.4537617625092644,
             "samples": 20
           },
           "week": {
             "label": "中下偏上",
-            "close": 35.72,
-            "mid": 36.7509,
-            "upper": 40.04483441950504,
-            "lower": 33.456965580494966,
-            "position": 0.34351540305485023,
+            "close": 35.1,
+            "mid": 36.7199,
+            "upper": 40.063356768077014,
+            "lower": 33.37644323192299,
+            "position": 0.25775071843807834,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 35.72,
-            "mid": 38.71790000000001,
-            "upper": 46.756747228303325,
-            "lower": 30.679052771696686,
-            "position": 0.3135366978088011,
+            "close": 35.1,
+            "mid": 38.68690000000001,
+            "upper": 46.776373404369416,
+            "lower": 30.5974265956306,
+            "position": 0.2782983007235924,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:00.652Z",
+        "fetchedAt": "2026-11-25T09:37:23.016Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2785,17 +2824,17 @@
       "601668": {
         "code": "601668",
         "name": "中国建筑",
-        "price": 4.65,
-        "change": -0.21,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1921.4,
+        "price": 4.68,
+        "change": 0.65,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1933.79,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.2718,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-16",
@@ -2810,44 +2849,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:09.201Z"
+          "fetchedAt": "2026-11-25T09:37:30.300Z"
         },
         "dividendAmount": 0.2718,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏上",
-            "close": 4.65,
-            "mid": 4.663,
-            "upper": 4.766942291681491,
-            "lower": 4.55905770831851,
-            "position": 0.437465300265672,
+            "label": "中上偏下",
+            "close": 4.68,
+            "mid": 4.668000000000001,
+            "upper": 4.7648710483064995,
+            "lower": 4.5711289516935025,
+            "position": 0.5619380104261433,
             "samples": 20
           },
           "week": {
-            "label": "中上偏下",
-            "close": 4.65,
-            "mid": 4.505000000000001,
-            "upper": 4.807886117212394,
-            "lower": 4.202113882787607,
-            "position": 0.7393638924994388,
+            "label": "中上偏上",
+            "close": 4.68,
+            "mid": 4.5065,
+            "upper": 4.812524508822414,
+            "lower": 4.200475491177586,
+            "position": 0.7834740274032784,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 4.65,
-            "mid": 4.818350000000001,
-            "upper": 5.501861601949813,
-            "lower": 4.134838398050188,
-            "position": 0.37684920086231294,
+            "close": 4.68,
+            "mid": 4.81985,
+            "upper": 5.502007540455282,
+            "lower": 4.137692459544717,
+            "position": 0.39749435305907344,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:09.202Z",
+        "fetchedAt": "2026-11-25T09:37:30.302Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2855,17 +2894,17 @@
       "601669": {
         "code": "601669",
         "name": "中国电建",
-        "price": 4.39,
-        "change": -0.45,
-        "quoteDate": "2026-11-24",
-        "marketCap": 756.23,
+        "price": 4.37,
+        "change": -0.46,
+        "quoteDate": "2026-11-25",
+        "marketCap": 752.78,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.10552,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-10",
@@ -2880,44 +2919,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:11.950Z"
+          "fetchedAt": "2026-11-25T09:37:31.904Z"
         },
         "dividendAmount": 0.10552,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 4.39,
-            "mid": 4.441,
-            "upper": 4.541776981498753,
-            "lower": 4.340223018501247,
-            "position": 0.24696602715456825,
+            "close": 4.37,
+            "mid": 4.437,
+            "upper": 4.542280577506015,
+            "lower": 4.331719422493985,
+            "position": 0.1818026573031848,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 4.39,
-            "mid": 4.5889999999999995,
-            "upper": 4.859177719288619,
-            "lower": 4.31882228071138,
-            "position": 0.1317238880319796,
+            "close": 4.37,
+            "mid": 4.587999999999999,
+            "upper": 4.861247140881656,
+            "lower": 4.314752859118342,
+            "position": 0.10109372179229023,
             "samples": 20
           },
           "month": {
             "label": "中下偏下",
-            "close": 4.39,
-            "mid": 5.1297,
-            "upper": 6.3296325147690595,
-            "lower": 3.92976748523094,
-            "position": 0.19177433276638753,
+            "close": 4.37,
+            "mid": 5.1287,
+            "upper": 6.331127394897505,
+            "lower": 3.9262726051024956,
+            "position": 0.1845131759224963,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:11.950Z",
+        "fetchedAt": "2026-11-25T09:37:31.906Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -2925,17 +2964,17 @@
       "601728": {
         "code": "601728",
         "name": "中国电信",
-        "price": 7.01,
-        "change": -0.28,
-        "quoteDate": "2026-11-24",
-        "marketCap": 6414.65,
+        "price": 7.18,
+        "change": 2.43,
+        "quoteDate": "2026-11-25",
+        "marketCap": 6570.21,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.2514,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-10",
@@ -2960,44 +2999,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:14.661Z"
+          "fetchedAt": "2026-11-25T09:37:34.964Z"
         },
         "dividendAmount": 0.2514,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏下",
-            "close": 7.01,
-            "mid": 6.9285,
-            "upper": 7.330508706373381,
-            "lower": 6.526491293626618,
-            "position": 0.6013659638558969,
+            "label": "中上偏上",
+            "close": 7.18,
+            "mid": 6.943500000000002,
+            "upper": 7.359301635398421,
+            "lower": 6.527698364601583,
+            "position": 0.7843904158450272,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 7.01,
-            "mid": 6.4540999999999995,
-            "upper": 7.257899950236375,
-            "lower": 5.650300049763624,
-            "position": 0.8457949952824241,
+            "close": 7.18,
+            "mid": 6.4626,
+            "upper": 7.292893056697453,
+            "lower": 5.632306943302547,
+            "position": 0.9320161382858642,
             "samples": 20
           },
           "month": {
-            "label": "中上偏下",
-            "close": 7.01,
-            "mid": 6.38445,
-            "upper": 7.760192196052735,
-            "lower": 5.0087078039472654,
-            "position": 0.7273500085244246,
+            "label": "中上偏上",
+            "close": 7.18,
+            "mid": 6.392950000000001,
+            "upper": 7.786038292248557,
+            "lower": 4.999861707751444,
+            "position": 0.7824838900661626,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:14.662Z",
+        "fetchedAt": "2026-11-25T09:37:34.965Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3006,16 +3045,16 @@
         "code": "601800",
         "name": "中国交建",
         "price": 5.84,
-        "change": -1.02,
-        "quoteDate": "2026-11-24",
+        "change": 0,
+        "quoteDate": "2026-11-25",
         "marketCap": 946.89,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.19573,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-09",
@@ -3040,18 +3079,18 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:09.216Z"
+          "fetchedAt": "2026-11-25T09:37:31.977Z"
         },
         "dividendAmount": 0.19573,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "下",
+            "label": "中下偏下",
             "close": 5.84,
-            "mid": 6.0920000000000005,
-            "upper": 6.337405786402848,
-            "lower": 5.846594213597153,
-            "position": -0.013435326228062705,
+            "mid": 6.0760000000000005,
+            "upper": 6.342413212885548,
+            "lower": 5.809586787114453,
+            "position": 0.05707902501557318,
             "samples": 20
           },
           "week": {
@@ -3072,12 +3111,12 @@
             "position": 0.1459386517233033,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:09.216Z",
+        "fetchedAt": "2026-11-25T09:37:31.978Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3085,17 +3124,17 @@
       "601838": {
         "code": "601838",
         "name": "成都银行",
-        "price": 20.92,
-        "change": 0.63,
-        "quoteDate": "2026-11-24",
-        "marketCap": 886.68,
+        "price": 20.91,
+        "change": -0.05,
+        "quoteDate": "2026-11-25",
+        "marketCap": 886.26,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 1.41,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-13",
@@ -3120,44 +3159,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:12.282Z"
+          "fetchedAt": "2026-11-25T09:37:33.150Z"
         },
         "dividendAmount": 1.41,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 20.92,
-            "mid": 20.309,
-            "upper": 21.437678873728043,
-            "lower": 19.18032112627196,
-            "position": 0.7706704334696455,
+            "close": 20.91,
+            "mid": 20.416500000000003,
+            "upper": 21.322066673415055,
+            "lower": 19.51093332658495,
+            "position": 0.7724813172170535,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 20.92,
-            "mid": 19.020949999999996,
-            "upper": 21.154528728334153,
-            "lower": 16.887371271665838,
-            "position": 0.9450386514405154,
+            "close": 20.91,
+            "mid": 19.020449999999997,
+            "upper": 21.152252286798657,
+            "lower": 16.888647713201337,
+            "position": 0.9431813427777,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 20.92,
-            "mid": 16.91195,
-            "upper": 20.467940690370266,
-            "lower": 13.355959309629736,
-            "position": 1.0635630614632832,
+            "close": 20.91,
+            "mid": 16.911450000000002,
+            "upper": 20.465188396393298,
+            "lower": 13.357711603606706,
+            "position": 1.062583616742603,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:12.283Z",
+        "fetchedAt": "2026-11-25T09:37:33.151Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3165,17 +3204,17 @@
       "601857": {
         "code": "601857",
         "name": "中国石油",
-        "price": 12.35,
-        "change": -1.44,
-        "quoteDate": "2026-11-24",
-        "marketCap": 22603.09,
+        "price": 12.3,
+        "change": -0.4,
+        "quoteDate": "2026-11-25",
+        "marketCap": 22511.58,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.51,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-26",
@@ -3200,44 +3239,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:16.740Z"
+          "fetchedAt": "2026-11-25T09:37:35.997Z"
         },
         "dividendAmount": 0.51,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏上",
-            "close": 12.35,
-            "mid": 12.831,
-            "upper": 14.178232719317638,
-            "lower": 11.483767280682361,
-            "position": 0.32148592700316014,
+            "close": 12.3,
+            "mid": 12.783,
+            "upper": 14.134075127444806,
+            "lower": 11.431924872555193,
+            "position": 0.3212534631906581,
             "samples": 20
           },
           "week": {
             "label": "中上偏下",
-            "close": 12.35,
-            "mid": 11.532999999999998,
-            "upper": 13.647541084963825,
-            "lower": 9.41845891503617,
-            "position": 0.6931861257767848,
+            "close": 12.3,
+            "mid": 11.5305,
+            "upper": 13.641286346364785,
+            "lower": 9.419713653635215,
+            "position": 0.6822780409123927,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 12.35,
-            "mid": 9.800500000000001,
-            "upper": 13.503938807378894,
-            "lower": 6.0970611926211085,
-            "position": 0.8442071183841708,
+            "close": 12.3,
+            "mid": 9.798000000000002,
+            "upper": 13.494612503360342,
+            "lower": 6.101387496639662,
+            "position": 0.8384179431473545,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:16.741Z",
+        "fetchedAt": "2026-11-25T09:37:35.998Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3245,17 +3284,17 @@
       "601872": {
         "code": "601872",
         "name": "招商轮船",
-        "price": 15.43,
-        "change": -0.84,
-        "quoteDate": "2026-11-24",
-        "marketCap": 1245.9,
+        "price": 15.29,
+        "change": -0.91,
+        "quoteDate": "2026-11-25",
+        "marketCap": 1234.6,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.38,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-10",
@@ -3280,44 +3319,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:07.236Z"
+          "fetchedAt": "2026-11-25T09:37:29.401Z"
         },
         "dividendAmount": 0.38,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏上",
-            "close": 15.43,
-            "mid": 16.295499999999997,
-            "upper": 18.065624006955442,
-            "lower": 14.525375993044552,
-            "position": 0.25552560255689977,
+            "label": "中下偏下",
+            "close": 15.29,
+            "mid": 16.2055,
+            "upper": 17.987885760715116,
+            "lower": 14.423114239284885,
+            "position": 0.24318129661429425,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 15.43,
-            "mid": 17.898,
-            "upper": 22.491393516780377,
-            "lower": 13.304606483219622,
-            "position": 0.23135330219542327,
+            "close": 15.29,
+            "mid": 17.891,
+            "upper": 22.49981720184257,
+            "lower": 13.282182798157425,
+            "position": 0.21782347985507677,
             "samples": 20
           },
           "month": {
             "label": "中上偏下",
-            "close": 15.43,
-            "mid": 12.181900000000002,
-            "upper": 22.396806948181172,
-            "lower": 1.9669930518188306,
-            "position": 0.6589882324174448,
+            "close": 15.29,
+            "mid": 12.174900000000001,
+            "upper": 22.381082163767214,
+            "lower": 1.9687178362327877,
+            "position": 0.6526084852305919,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:07.237Z",
+        "fetchedAt": "2026-11-25T09:37:29.402Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3325,17 +3364,17 @@
       "601919": {
         "code": "601919",
         "name": "中远海控",
-        "price": 17.76,
-        "change": 0.68,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2702.77,
+        "price": 17.33,
+        "change": -2.42,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2637.34,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.87,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-06-26",
@@ -3360,44 +3399,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:06.436Z"
+          "fetchedAt": "2026-11-25T09:37:29.246Z"
         },
         "dividendAmount": 0.87,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中上偏下",
-            "close": 17.76,
-            "mid": 17.392500000000002,
-            "upper": 18.24161424437469,
-            "lower": 16.543385755625312,
-            "position": 0.716401975608498,
+            "label": "中下偏上",
+            "close": 17.33,
+            "mid": 17.436,
+            "upper": 18.171048297732877,
+            "lower": 16.700951702267123,
+            "position": 0.4278958945099667,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 17.76,
-            "mid": 16.121499999999997,
-            "upper": 18.17449074522999,
-            "lower": 14.068509254770005,
-            "position": 0.8990519693785681,
+            "close": 17.33,
+            "mid": 16.099999999999998,
+            "upper": 18.092004016060205,
+            "lower": 14.107995983939789,
+            "position": 0.8087343173214829,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 17.76,
-            "mid": 14.352999999999998,
-            "upper": 17.416932766886372,
-            "lower": 11.289067233113622,
-            "position": 1.0559847847872752,
+            "close": 17.33,
+            "mid": 14.331499999999997,
+            "upper": 17.304177412703904,
+            "lower": 11.358822587296089,
+            "position": 1.0043433214760773,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:06.437Z",
+        "fetchedAt": "2026-11-25T09:37:29.247Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3405,17 +3444,17 @@
       "601928": {
         "code": "601928",
         "name": "凤凰传媒",
-        "price": 9.03,
-        "change": -0.88,
-        "quoteDate": "2026-11-24",
-        "marketCap": 229.8,
+        "price": 9.17,
+        "change": 1.55,
+        "quoteDate": "2026-11-25",
+        "marketCap": 233.37,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.5,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-08-21",
@@ -3440,44 +3479,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:59.459Z"
+          "fetchedAt": "2026-11-25T09:37:24.091Z"
         },
         "dividendAmount": 0.5,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏上",
-            "close": 9.03,
-            "mid": 9.209,
-            "upper": 9.669386793902692,
-            "lower": 8.748613206097307,
-            "position": 0.30559824654979817,
+            "close": 9.17,
+            "mid": 9.2345,
+            "upper": 9.620995795578684,
+            "lower": 8.848004204421317,
+            "position": 0.4165579538796437,
             "samples": 20
           },
           "week": {
             "label": "中上偏下",
-            "close": 9.03,
-            "mid": 8.7595,
-            "upper": 9.556456084110033,
-            "lower": 7.962543915889965,
-            "position": 0.6697082219417831,
+            "close": 9.17,
+            "mid": 8.766499999999997,
+            "upper": 9.575209465753924,
+            "lower": 7.9577905342460715,
+            "position": 0.7494715451511602,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 9.03,
-            "mid": 9.455000000000002,
-            "upper": 10.96334346221277,
-            "lower": 7.946656537787233,
-            "position": 0.35911696816833777,
+            "close": 9.17,
+            "mid": 9.462,
+            "upper": 10.963673732872756,
+            "lower": 7.960326267127242,
+            "position": 0.4027751522824493,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 650,
+        "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:59.460Z",
+        "fetchedAt": "2026-11-25T09:37:24.092Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3485,17 +3524,17 @@
       "601939": {
         "code": "601939",
         "name": "建设银行",
-        "price": 12.43,
-        "change": 0.32,
-        "quoteDate": "2026-11-24",
-        "marketCap": 32516.93,
+        "price": 12.59,
+        "change": 1.29,
+        "quoteDate": "2026-11-25",
+        "marketCap": 32935.49,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.3887,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-11",
@@ -3520,44 +3559,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:13.948Z"
+          "fetchedAt": "2026-11-25T09:37:34.203Z"
         },
         "dividendAmount": 0.3887,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 12.43,
-            "mid": 12.099999999999998,
-            "upper": 12.638999072355414,
-            "lower": 11.561000927644582,
-            "position": 0.8061229758317651,
+            "close": 12.59,
+            "mid": 12.140999999999998,
+            "upper": 12.697808764298838,
+            "lower": 11.584191235701159,
+            "position": 0.9031904926688825,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 12.43,
-            "mid": 11.128499999999999,
-            "upper": 12.625286891978947,
-            "lower": 9.631713108021051,
-            "position": 0.9347646304809791,
+            "close": 12.59,
+            "mid": 11.1365,
+            "upper": 12.662452489430782,
+            "lower": 9.610547510569218,
+            "position": 0.9762599130927697,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 12.43,
-            "mid": 9.58405,
-            "upper": 11.986320881894878,
-            "lower": 7.181779118105121,
-            "position": 1.0923457719628924,
+            "close": 12.59,
+            "mid": 9.592049999999999,
+            "upper": 12.032933075855947,
+            "lower": 7.151166924144049,
+            "position": 1.114111759316596,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:13.949Z",
+        "fetchedAt": "2026-11-25T09:37:34.204Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3565,17 +3604,17 @@
       "601985": {
         "code": "601985",
         "name": "中国核电",
-        "price": 10.05,
-        "change": 2.76,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2067.08,
+        "price": 9.91,
+        "change": -1.39,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2038.29,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.2,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-13",
@@ -3610,44 +3649,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:13:59.870Z"
+          "fetchedAt": "2026-11-25T09:37:23.818Z"
         },
         "dividendAmount": 0.2,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "上",
-            "close": 10.05,
-            "mid": 9.7775,
-            "upper": 10.033927377633512,
-            "lower": 9.521072622366487,
-            "position": 1.0313395209880036,
+            "label": "中上偏下",
+            "close": 9.91,
+            "mid": 9.79,
+            "upper": 10.04667099563449,
+            "lower": 9.533329004365509,
+            "position": 0.7337622911060934,
             "samples": 20
           },
           "week": {
-            "label": "上",
-            "close": 10.05,
-            "mid": 9.190000000000001,
-            "upper": 10.029333068572901,
-            "lower": 8.350666931427101,
-            "position": 1.0123115198250432,
+            "label": "中上偏上",
+            "close": 9.91,
+            "mid": 9.183,
+            "upper": 9.995430920140292,
+            "lower": 8.370569079859708,
+            "position": 0.947422655869905,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 10.05,
-            "mid": 8.894500000000003,
-            "upper": 9.726785407777887,
-            "lower": 8.062214592222118,
-            "position": 1.1941729298637245,
+            "close": 9.91,
+            "mid": 8.887500000000001,
+            "upper": 9.682305007533296,
+            "lower": 8.092694992466706,
+            "position": 1.1432395306449838,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:13:59.871Z",
+        "fetchedAt": "2026-11-25T09:37:23.819Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3655,17 +3694,17 @@
       "601991": {
         "code": "601991",
         "name": "大唐发电",
-        "price": 4.48,
-        "change": -0.88,
-        "quoteDate": "2026-11-24",
-        "marketCap": 829.1,
+        "price": 4.31,
+        "change": -3.79,
+        "quoteDate": "2026-11-25",
+        "marketCap": 797.64,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.216,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2025-12-12",
@@ -3700,44 +3739,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:05.172Z"
+          "fetchedAt": "2026-11-25T09:37:25.980Z"
         },
         "dividendAmount": 0.216,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
-            "label": "中下偏下",
-            "close": 4.48,
-            "mid": 4.6485,
-            "upper": 4.871952455793173,
-            "lower": 4.425047544206827,
-            "position": 0.12296229996245141,
+            "label": "下",
+            "close": 4.31,
+            "mid": 4.619000000000001,
+            "upper": 4.857151212468046,
+            "lower": 4.3808487875319555,
+            "position": -0.14874748441909003,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 4.48,
-            "mid": 5.355600000000001,
-            "upper": 6.484033852735729,
-            "lower": 4.227166147264272,
-            "position": 0.11202865463614378,
+            "close": 4.31,
+            "mid": 5.347100000000001,
+            "upper": 6.503990124428419,
+            "lower": 4.1902098755715835,
+            "position": 0.05177247255334665,
             "samples": 20
           },
           "month": {
-            "label": "中上偏下",
-            "close": 4.48,
-            "mid": 4.2375,
-            "upper": 7.170466791492873,
-            "lower": 1.3045332085071264,
-            "position": 0.541340393062645,
+            "label": "中",
+            "close": 4.31,
+            "mid": 4.229,
+            "upper": 7.160091127890772,
+            "lower": 1.297908872109228,
+            "position": 0.5138173800243269,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:05.173Z",
+        "fetchedAt": "2026-11-25T09:37:25.982Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3745,17 +3784,17 @@
       "003816": {
         "code": "003816",
         "name": "中国广核",
-        "price": 4.61,
-        "change": -0.43,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2329.52,
+        "price": 4.63,
+        "change": 0.43,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2360,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.086,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-10",
@@ -3770,44 +3809,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:02.894Z"
+          "fetchedAt": "2026-11-25T09:37:24.807Z"
         },
         "dividendAmount": 0.086,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 4.61,
-            "mid": 4.7035,
-            "upper": 4.862279721627165,
-            "lower": 4.544720278372835,
-            "position": 0.20556693562056522,
+            "close": 4.63,
+            "mid": 4.7065,
+            "upper": 4.8571353212231445,
+            "lower": 4.555864678776856,
+            "position": 0.24607549086486635,
             "samples": 20
           },
           "week": {
             "label": "中上偏下",
-            "close": 4.61,
-            "mid": 4.3255,
-            "upper": 4.943479773131775,
-            "lower": 3.7075202268682252,
-            "position": 0.7301855273985927,
+            "close": 4.63,
+            "mid": 4.3265,
+            "upper": 4.946379827063279,
+            "lower": 3.706620172936722,
+            "position": 0.7448055145122652,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 4.61,
-            "mid": 3.968750000000001,
-            "upper": 4.822900308786458,
-            "lower": 3.114599691213544,
-            "position": 0.875373042310938,
+            "close": 4.63,
+            "mid": 3.9697500000000003,
+            "upper": 4.826942364641683,
+            "lower": 3.1125576353583173,
+            "position": 0.8851235890767603,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:02.895Z",
+        "fetchedAt": "2026-11-25T09:37:24.809Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3815,17 +3854,17 @@
       "000708": {
         "code": "000708",
         "name": "中信特钢",
-        "price": 12.6,
-        "change": 0,
-        "quoteDate": "2026-11-24",
-        "marketCap": 635.94,
+        "price": 12.8,
+        "change": 1.59,
+        "quoteDate": "2026-11-25",
+        "marketCap": 646.04,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.6457954,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-05-21",
@@ -3850,44 +3889,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:03.784Z"
+          "fetchedAt": "2026-11-25T09:37:26.718Z"
         },
         "dividendAmount": 0.6457954,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏下",
-            "close": 12.6,
-            "mid": 12.518999999999998,
-            "upper": 13.19005588440904,
-            "lower": 11.847944115590957,
-            "position": 0.5603526486257796,
+            "close": 12.8,
+            "mid": 12.565499999999998,
+            "upper": 13.176416524575982,
+            "lower": 11.954583475424014,
+            "position": 0.6919247479537083,
             "samples": 20
           },
           "week": {
             "label": "中下偏上",
-            "close": 12.6,
-            "mid": 13.1715,
-            "upper": 14.414098487042375,
-            "lower": 11.928901512957625,
-            "position": 0.2700383486864366,
+            "close": 12.8,
+            "mid": 13.1815,
+            "upper": 14.408663803247146,
+            "lower": 11.954336196752854,
+            "position": 0.34456027834648967,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 12.6,
-            "mid": 13.452250000000001,
-            "upper": 17.134329840253333,
-            "lower": 9.77017015974667,
-            "position": 0.3842705703060793,
+            "close": 12.8,
+            "mid": 13.462250000000001,
+            "upper": 17.136094301273534,
+            "lower": 9.78840569872647,
+            "position": 0.4098696153548977,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:03.785Z",
+        "fetchedAt": "2026-11-25T09:37:26.719Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3895,17 +3934,17 @@
       "001872": {
         "code": "001872",
         "name": "招商港口",
-        "price": 27.79,
-        "change": 2.17,
-        "quoteDate": "2026-11-24",
-        "marketCap": 689.79,
+        "price": 27.3,
+        "change": -1.76,
+        "quoteDate": "2026-11-25",
+        "marketCap": 677.63,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.999,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-07-15",
@@ -3930,44 +3969,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:06.199Z"
+          "fetchedAt": "2026-11-25T09:37:28.597Z"
         },
         "dividendAmount": 0.999,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 27.79,
-            "mid": 25.823499999999996,
-            "upper": 28.05668852764382,
-            "lower": 23.59031147235617,
-            "position": 0.9402897416983425,
+            "close": 27.3,
+            "mid": 25.987499999999994,
+            "upper": 28.14736920900317,
+            "lower": 23.827630790996817,
+            "position": 0.8038378422473444,
             "samples": 20
           },
           "week": {
-            "label": "上",
-            "close": 27.79,
-            "mid": 23.648000000000003,
-            "upper": 27.45528039419216,
-            "lower": 19.840719605807845,
-            "position": 1.0439578348784657,
+            "label": "中上偏上",
+            "close": 27.3,
+            "mid": 23.6235,
+            "upper": 27.328789597318945,
+            "lower": 19.918210402681055,
+            "position": 0.9961150678559949,
             "samples": 20
           },
           "month": {
             "label": "上",
-            "close": 27.79,
-            "mid": 20.58125,
-            "upper": 25.834100916407202,
-            "lower": 15.328399083592798,
-            "position": 1.1861750042708785,
+            "close": 27.3,
+            "mid": 20.55675,
+            "upper": 25.67779937976583,
+            "lower": 15.43570062023417,
+            "position": 1.1583855670913634,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
-        "historyCount": 651,
+        "historyCount": 650,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:06.199Z",
+        "fetchedAt": "2026-11-25T09:37:28.598Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -3975,17 +4014,17 @@
       "002001": {
         "code": "002001",
         "name": "新 和 成",
-        "price": 24.85,
-        "change": -1.51,
-        "quoteDate": "2026-11-24",
-        "marketCap": 763.75,
+        "price": 24.81,
+        "change": -0.16,
+        "quoteDate": "2026-11-25",
+        "marketCap": 762.52,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.8,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-05-28",
@@ -4000,44 +4039,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:07.684Z"
+          "fetchedAt": "2026-11-25T09:37:30.411Z"
         },
         "dividendAmount": 0.8,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏下",
-            "close": 24.85,
-            "mid": 25.7505,
-            "upper": 26.765378810499065,
-            "lower": 24.735621189500932,
-            "position": 0.056350969847731525,
+            "close": 24.81,
+            "mid": 25.7215,
+            "upper": 26.806641004662527,
+            "lower": 24.63635899533747,
+            "position": 0.0800084983962657,
             "samples": 20
           },
           "week": {
             "label": "中下偏下",
-            "close": 24.85,
-            "mid": 27.005000000000003,
-            "upper": 30.318315559979162,
-            "lower": 23.691684440020843,
-            "position": 0.17479704830566212,
+            "close": 24.81,
+            "mid": 27.002999999999997,
+            "upper": 30.32156053131474,
+            "lower": 23.68443946868525,
+            "position": 0.16958565629490316,
             "samples": 20
           },
           "month": {
             "label": "中下偏上",
-            "close": 24.85,
-            "mid": 25.90795,
-            "upper": 33.91742547533545,
-            "lower": 17.89847452466455,
-            "position": 0.43395634937282274,
+            "close": 24.81,
+            "mid": 25.905949999999997,
+            "upper": 33.91650107904568,
+            "lower": 17.895398920954314,
+            "position": 0.431593345502357,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:07.685Z",
+        "fetchedAt": "2026-11-25T09:37:30.412Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -4045,17 +4084,17 @@
       "000157": {
         "code": "000157",
         "name": "中联重科",
-        "price": 5.99,
-        "change": 0.84,
-        "quoteDate": "2026-11-24",
-        "marketCap": 518.05,
+        "price": 5.91,
+        "change": -1.34,
+        "quoteDate": "2026-11-25",
+        "marketCap": 511.13,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
         "source": "东方财富不复权日线",
         "verified": true,
         "dividend": {
           "amount": 0.4,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-09",
@@ -4080,114 +4119,44 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:07.905Z"
+          "fetchedAt": "2026-11-25T09:37:30.935Z"
         },
         "dividendAmount": 0.4,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中下偏上",
-            "close": 5.99,
-            "mid": 6.003500000000001,
-            "upper": 6.2300634568945314,
-            "lower": 5.77693654310547,
-            "position": 0.47020702238339124,
+            "close": 5.91,
+            "mid": 5.998499999999999,
+            "upper": 6.228654296071134,
+            "lower": 5.768345703928864,
+            "position": 0.30773767531011975,
             "samples": 20
           },
           "week": {
             "label": "中下偏上",
-            "close": 5.99,
-            "mid": 6.444000000000001,
-            "upper": 7.564132135062646,
-            "lower": 5.323867864937355,
-            "position": 0.29734533730941937,
+            "close": 5.91,
+            "mid": 6.44,
+            "upper": 7.567137968484782,
+            "lower": 5.312862031515219,
+            "position": 0.26489124897793903,
             "samples": 20
           },
           "month": {
             "label": "中下偏下",
-            "close": 5.99,
-            "mid": 7.260499999999999,
-            "upper": 9.202895170916566,
-            "lower": 5.318104829083431,
-            "position": 0.17295532365834668,
+            "close": 5.91,
+            "mid": 7.256499999999998,
+            "upper": 9.209643875908785,
+            "lower": 5.303356124091211,
+            "position": 0.15529933134765125,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:07.905Z",
-        "errors": [],
-        "warnings": [],
-        "status": "ok"
-      },
-      "000333": {
-        "code": "000333",
-        "name": "美的集团",
-        "price": 94.23,
-        "change": 0.11,
-        "quoteDate": "2026-11-24",
-        "marketCap": 7190.11,
-        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
-        "dividend": {
-          "amount": 3.8,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
-          "events": [
-            {
-              "exDate": "2026-06-29",
-              "reportDate": "2025-12-31",
-              "cashPer10": 38,
-              "cashPerShare": 3.8,
-              "bonusPer10": 0,
-              "transferPer10": 0,
-              "plan": "10派38.00元(含税,扣税后34.20元)",
-              "progress": "实施分配"
-            }
-          ],
-          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
-          "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:17.978Z"
-        },
-        "dividendAmount": 3.8,
-        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
-        "trends": {
-          "day": {
-            "label": "中上偏上",
-            "close": 94.23,
-            "mid": 90.35999999999999,
-            "upper": 96.06034735783705,
-            "lower": 84.65965264216292,
-            "position": 0.8394529979545362,
-            "samples": 20
-          },
-          "week": {
-            "label": "上",
-            "close": 94.23,
-            "mid": 86.19399999999997,
-            "upper": 93.78320391081961,
-            "lower": 78.60479608918034,
-            "position": 1.02943629492834,
-            "samples": 20
-          },
-          "month": {
-            "label": "上",
-            "close": 94.23,
-            "mid": 76.11269999999999,
-            "upper": 91.72722518778588,
-            "lower": 60.498174812214096,
-            "position": 1.0801425205734678,
-            "samples": 20
-          },
-          "asOf": "2026-11-24",
-          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
-        },
-        "historyCount": 651,
-        "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:17.979Z",
+        "fetchedAt": "2026-11-25T09:37:30.936Z",
         "errors": [],
         "warnings": [],
         "status": "ok"
@@ -4195,17 +4164,17 @@
       "000651": {
         "code": "000651",
         "name": "格力电器",
-        "price": 40.5,
-        "change": -0.37,
-        "quoteDate": "2026-11-24",
-        "marketCap": 2268.57,
+        "price": 40.78,
+        "change": 0.69,
+        "quoteDate": "2026-11-25",
+        "marketCap": 2284.25,
         "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
-        "source": "东方财富不复权日线",
-        "verified": true,
+        "source": "腾讯不复权日线",
+        "verified": false,
         "dividend": {
           "amount": 3,
-          "start": "2025-11-24",
-          "end": "2026-11-24",
+          "start": "2025-11-25",
+          "end": "2026-11-25",
           "events": [
             {
               "exDate": "2026-01-23",
@@ -4230,45 +4199,119 @@
           ],
           "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
           "provider": "东方财富已实施分红",
-          "fetchedAt": "2026-11-24T11:14:18.121Z"
+          "fetchedAt": "2026-11-25T09:37:41.851Z"
         },
         "dividendAmount": 3,
         "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
         "trends": {
           "day": {
             "label": "中上偏上",
-            "close": 40.5,
-            "mid": 39.3995,
-            "upper": 41.5391399229777,
-            "lower": 37.25986007702231,
-            "position": 0.7571694396289945,
+            "close": 40.78,
+            "mid": 39.573499999999996,
+            "upper": 41.562603064197525,
+            "lower": 37.58439693580247,
+            "position": 0.8032773971636176,
             "samples": 20
           },
           "week": {
             "label": "中上偏上",
-            "close": 40.5,
-            "mid": 38.919500000000006,
-            "upper": 40.7281290388026,
-            "lower": 37.11087096119741,
-            "position": 0.9369331593410574,
+            "close": 40.78,
+            "mid": 38.9335,
+            "upper": 40.79442745694183,
+            "lower": 37.07257254305817,
+            "position": 0.9961235842676154,
             "samples": 20
           },
           "month": {
             "label": "中上偏上",
-            "close": 40.5,
-            "mid": 38.2217,
-            "upper": 41.77953738245581,
-            "lower": 34.66386261754419,
-            "position": 0.8201804572680326,
+            "close": 40.78,
+            "mid": 38.235699999999994,
+            "upper": 41.83129069416973,
+            "lower": 34.64010930583026,
+            "position": 0.8538083470020098,
             "samples": 20
           },
-          "asOf": "2026-11-24",
+          "asOf": "2026-11-25",
           "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
         },
         "historyCount": 651,
         "historyProvider": "腾讯前复权历史日线",
-        "fetchedAt": "2026-11-24T11:14:18.122Z",
-        "errors": [],
+        "fetchedAt": "2026-11-25T09:37:41.852Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
+        "warnings": [],
+        "status": "ok"
+      },
+      "000333": {
+        "code": "000333",
+        "name": "美的集团",
+        "price": 94.14,
+        "change": -0.1,
+        "quoteDate": "2026-11-25",
+        "marketCap": 7183.24,
+        "marketCapBasis": "腾讯行情总市值（含同一证券对应的总股本）",
+        "source": "腾讯不复权日线",
+        "verified": false,
+        "dividend": {
+          "amount": 3.8,
+          "start": "2025-11-25",
+          "end": "2026-11-25",
+          "events": [
+            {
+              "exDate": "2026-06-29",
+              "reportDate": "2025-12-31",
+              "cashPer10": 38,
+              "cashPerShare": 3.8,
+              "bonusPer10": 0,
+              "transferPer10": 0,
+              "plan": "10派38.00元(含税,扣税后34.20元)",
+              "progress": "实施分配"
+            }
+          ],
+          "adjustment": "期间送转股后按当前股本折算；不含配股和股份回购",
+          "provider": "东方财富已实施分红",
+          "fetchedAt": "2026-11-25T09:37:42.036Z"
+        },
+        "dividendAmount": 3.8,
+        "dividendSource": "过去12个月已实施税前现金分红（除息日期口径）",
+        "trends": {
+          "day": {
+            "label": "中上偏上",
+            "close": 94.14,
+            "mid": 90.7715,
+            "upper": 96.31350424034483,
+            "lower": 85.22949575965518,
+            "position": 0.8039062994104105,
+            "samples": 20
+          },
+          "week": {
+            "label": "上",
+            "close": 94.14,
+            "mid": 86.18949999999998,
+            "upper": 93.75972185936448,
+            "lower": 78.61927814063549,
+            "position": 1.0251167104280514,
+            "samples": 20
+          },
+          "month": {
+            "label": "上",
+            "close": 94.14,
+            "mid": 76.1082,
+            "upper": 91.70187541793787,
+            "lower": 60.51452458206212,
+            "position": 1.078176713209558,
+            "samples": 20
+          },
+          "asOf": "2026-11-25",
+          "basis": "前复权收盘价，BOLL(20,2)，周/月含截至收盘的当前周期"
+        },
+        "historyCount": 650,
+        "historyProvider": "腾讯前复权历史日线",
+        "fetchedAt": "2026-11-25T09:37:42.037Z",
+        "errors": [
+          "push2his.eastmoney.com: fetch failed"
+        ],
         "warnings": [],
         "status": "ok"
       }
@@ -4289,8 +4332,37 @@
     "running": false
   },
   "status": {
-    "lastAttemptAt": "2026-11-24T11:14:22.495Z",
-    "status": "ok",
-    "errors": []
+    "lastAttemptAt": "2026-11-25T09:37:47.092Z",
+    "status": "partial",
+    "errors": [
+      {
+        "code": "600025",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "000651",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "000333",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600690",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600887",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600901",
+        "message": "push2his.eastmoney.com: fetch failed"
+      },
+      {
+        "code": "600519",
+        "message": "push2his.eastmoney.com: fetch failed"
+      }
+    ]
   }
 }
